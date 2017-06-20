@@ -6,4 +6,4 @@ global-styling:
 fonts:
   css:
     theme:
-    '//fonts.googleapis.com/css?family=Roboto': { type: external, minified: true }
+    https//fonts.googleapis.com/css?family=Roboto: { type: external, minified: true }
