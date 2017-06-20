@@ -41,13 +41,12 @@ a {
 
 /* MAIN CONTENT STYLES ===============================================*/
 
-
-
-
-
-
-
-
+.field--type-image .field--item {
+  display: inline-block;
+}
+.field--type-image .field--item:first-child {
+  display:block
+}
 /* FOOTER STYLES =====================================================*/
 
 
