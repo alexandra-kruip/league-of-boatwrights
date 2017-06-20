@@ -3,7 +3,3 @@ global-styling:
   css:
     theme:
       css/styles.css: {}
-fonts:
-  css:
-    theme:
-    https//fonts.googleapis.com/css?family=Roboto: { type: external, minified: true }
