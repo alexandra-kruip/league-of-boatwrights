@@ -23,6 +23,8 @@ regions:
 
 libraries:
   - 'leagueofboatwrights/global-styling'
+  - 'themeName/fonts'
+
 
 #libraries-extend:
 #  core/drupal.ajax:
