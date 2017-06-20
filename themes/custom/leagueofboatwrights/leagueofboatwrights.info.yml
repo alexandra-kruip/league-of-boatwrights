@@ -23,7 +23,6 @@ regions:
 
 libraries:
   - 'leagueofboatwrights/global-styling'
-  - 'themeName/fonts'
 
 
 #libraries-extend:
