@@ -55,7 +55,7 @@ a {
   margin-left: 30px;
 }
 .path-frontpage .navbar-default .navbar-collapse {
-  border-color: #ffffff;
+  border-color: white;
   background-color: white;
 }
 .path-frontpage >.container>.navbar-collapse {
@@ -63,8 +63,8 @@ a {
   margin-left: 1;
 }
 .path-frontpage > .navbar-default {
-   background-color: #f8f8f8;
-   border-color: #e7e7e7;
+   background-color: white;
+   border-color: white;
 }
 /* FOOTER STYLES =====================================================*/
 
