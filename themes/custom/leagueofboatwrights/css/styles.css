@@ -47,6 +47,13 @@ a {
 .field--type-image .field--item:first-child {
   display:block
 }
+.field--type-link.field--label-hidden.field--item.quickedit-field {
+  display: inline-block;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: x-large;
+  margin-left: 30px;
+}
 /* FOOTER STYLES =====================================================*/
 
 
