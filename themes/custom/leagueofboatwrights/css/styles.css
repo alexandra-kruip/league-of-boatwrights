@@ -52,7 +52,7 @@ a {
 }
 /*Center Image ==========*/
 .home-page img.img-responsive {
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -64,10 +64,6 @@ a {
   font-size: x-large;
   margin-left: 30px;
 }
-/*.path-frontpage .navbar-default .navbar-collapse {*/
-  /*border-color: white;*/
-  /*background-color: white;*/
-/*}*/
 .path-frontpage .navbar-default {
   background-color: white;
   border: white;
