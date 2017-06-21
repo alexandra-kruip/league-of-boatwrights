@@ -58,11 +58,7 @@ a {
   border-color: white;
   background-color: white;
 }
-.path-frontpage >.container>.navbar-collapse {
-  margin-right: 1;
-  margin-left: 1;
-}
-.path-frontpage > .navbar-default {
+.path-frontpage .navbar-default {
    background-color: white;
    border-color: white;
 }
