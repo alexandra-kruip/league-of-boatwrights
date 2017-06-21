@@ -50,6 +50,12 @@ a {
   text-align: center;
   margin-bottom: 2%;
 }
+/*Center Image ==========*/
+.home-page img.img-responsive {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /*Links at bottom ==========*/
 .field--type-link.field--label-hidden.field--item{
   display: inline-block;
