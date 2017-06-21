@@ -44,7 +44,7 @@ a {
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
-.field .field--name-body .field--type-text-with-summary .field--label-hidden .field--item{
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
   margin-bottom: 2%;
 }
