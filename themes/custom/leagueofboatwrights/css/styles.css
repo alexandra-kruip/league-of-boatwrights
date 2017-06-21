@@ -31,7 +31,9 @@ a {
 
 
 /* HEADER STYLES =====================================================*/
-
+.path-frontpage h1.page-header {
+  text-align: center;
+}
 
 
 
@@ -41,6 +43,11 @@ a {
 
 /* MAIN CONTENT STYLES ===============================================*/
 
+/*Home Page ===============================*/
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item.quickedit-field {
+  text-align: center;
+  margin-bottom: 2%;
+}
 .field--type-image .field--item {
   display: inline-block;
 }
@@ -62,6 +69,10 @@ a {
   background-color: white;
   border: white;
 }
+
+
+
+
 /* FOOTER STYLES =====================================================*/
 
 
