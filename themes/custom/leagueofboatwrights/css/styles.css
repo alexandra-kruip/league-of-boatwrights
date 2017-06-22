@@ -68,12 +68,6 @@ a {
   background-color: white;
   border: white;
 }
-/*.field.field--name-field-boatyard-thumb.field--type-image.field--label-above{*/
-  /*width: 100px;*/
-  /*display: inline-block;*/
-/*}*/
-
-
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-above,
 .field.field--name-field-icon-image.field--type-image.field--label-above,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-above,
@@ -83,13 +77,7 @@ a {
   width: 100px;
   margin-top: 5%;
   margin-left: 10%;
-
 }
-
-/*.field--name-field-icon-image.field--type-image .field--item {*/
-  /*display: inline-block;*/
-  /*width: 100px;*/
-/*}*/
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
