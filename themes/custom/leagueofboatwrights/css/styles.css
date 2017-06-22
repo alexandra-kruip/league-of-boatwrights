@@ -92,7 +92,7 @@ a {
  }
 
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
-   content: 'Boat Design';
+   content: 'Design';
    text-align: center;
    width: 100%;
    display: inline-block;
