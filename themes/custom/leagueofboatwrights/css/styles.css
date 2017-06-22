@@ -70,8 +70,12 @@ a {
 }
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-above{
   width: 100px;
+  display: inline-block;
 }
-
+.field.field--name-field-boatyard-thumb.field--type-image.field--label-above {
+  width: 100px;
+  display: inline-block;
+}
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
