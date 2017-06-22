@@ -46,7 +46,7 @@ a {
 /*Home Page ===============================*/
 
 /*Slogan ===================*/
-.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
+.path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
   margin-bottom: 2%;
 }
