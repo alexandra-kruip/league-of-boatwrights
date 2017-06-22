@@ -85,12 +85,41 @@ a {
 }
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
-  content: 'Boatyard';
-  text-align: center;
-  width: 100%;
-  display: inline-block;
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
 
-}
+.field.field--name-field-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-academy-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+
 
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
