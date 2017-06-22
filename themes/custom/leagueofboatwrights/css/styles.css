@@ -52,7 +52,7 @@ a {
 }
 /*Center Image ==========*/
 .field--name-field-home-page-image {
-  width: 700px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ a {
  }
 
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
-   content: 'Design';
+   content: 'Designs';
    text-align: center;
    width: 100%;
    display: inline-block;
