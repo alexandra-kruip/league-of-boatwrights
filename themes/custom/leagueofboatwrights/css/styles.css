@@ -51,7 +51,7 @@ a {
   margin-bottom: 2%;
 }
 /*Center Image ==========*/
-.home-page img.img-responsive:first-child {
+.field--name-field-home-page-image {
   width: 700px;
   margin: 0 auto;
 }
