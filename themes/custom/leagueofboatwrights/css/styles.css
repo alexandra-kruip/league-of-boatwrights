@@ -72,9 +72,9 @@ a {
   width: 100px;
   display: inline-block;
 }
-.field.field--name-field-boatyard-thumb.field--type-image.field--label-above {
-  width: 100px;
+.field--name-field-icon-image.field--type-image .field--item {
   display: inline-block;
+  width: 100px;
 }
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
