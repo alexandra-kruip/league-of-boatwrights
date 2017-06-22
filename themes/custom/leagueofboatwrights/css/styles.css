@@ -73,11 +73,11 @@ a {
   /*display: inline-block;*/
 /*}*/
 
-.field.field--name-field-boatyard-thumb.field--type-image,
-.field.field--name-field-icon-image.field--type-image,
-.field.field--name-field-homepage-icon-image.field--type-image,
-.field.field--name-field-academy-icon-image.field--type-image,
-.field.field--name-field-chandlery-icon-image.field--type-image {
+.field.field--name-field-boatyard-thumb.field--type-image.field--label-above,
+.field.field--name-field-icon-image.field--type-image.field--label-above,
+.field.field--name-field-homepage-icon-image.field--type-image.field--label-above,
+.field.field--name-field-academy-icon-image.field--type-image.field--label-above,
+.field.field--name-field-chandlery-icon-image.field--type-image.field--label-above {
   display: inline-block;
   width: 100px;
   margin: 20px 55px 0 55px;
