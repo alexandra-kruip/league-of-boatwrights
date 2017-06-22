@@ -68,16 +68,54 @@ a {
   background-color: white;
   border: white;
 }
-.field.field--name-field-boatyard-thumb.field--type-image.field--label-above,
-.field.field--name-field-icon-image.field--type-image.field--label-above,
-.field.field--name-field-homepage-icon-image.field--type-image.field--label-above,
-.field.field--name-field-academy-icon-image.field--type-image.field--label-above,
-.field.field--name-field-chandlery-icon-image.field--type-image.field--label-above{
+.field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
+.field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
+.field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
+.field.field--name-field-academy-icon-image.field--type-image.field--label-visually_hidden,
+.field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
   margin-top: 5%;
   margin-left: 10%;
 }
+.field--item a:hover {
+  background: #f0f0f0;
+}
+
+.field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatyard';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boat Design';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Boatwrights';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-academy-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Academy';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
+
+.field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
+   content: 'Chandlery';
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+ }
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
