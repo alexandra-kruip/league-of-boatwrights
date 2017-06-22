@@ -68,14 +68,25 @@ a {
   background-color: white;
   border: white;
 }
-.field.field--name-field-boatyard-thumb.field--type-image.field--label-above{
-  width: 100px;
+/*.field.field--name-field-boatyard-thumb.field--type-image.field--label-above{*/
+  /*width: 100px;*/
+  /*display: inline-block;*/
+/*}*/
+
+.field.field--name-field-boatyard-thumb.field--type-image,
+.field.field--name-field-icon-image.field--type-image,
+.field.field--name-field-homepage-icon-image.field--type-image,
+.field.field--name-field-academy-icon-image.field--type-image,
+.field.field--name-field-chandlery-icon-image.field--type-image {
   display: inline-block;
-}
-.field--name-field-icon-image.field--type-image .field--item {
-  display: inline-block;
   width: 100px;
+  margin: 20px 55px 0 55px;
 }
+
+/*.field--name-field-icon-image.field--type-image .field--item {*/
+  /*display: inline-block;*/
+  /*width: 100px;*/
+/*}*/
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
