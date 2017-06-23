@@ -40,13 +40,15 @@ h1.page-header {
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
+
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
     background-repeat: repeat-x;
     background-position: top;
 }
-
-
+body.user-logged-in.path-frontpage.page-node-type-home-page {
+    background-size: 1px 800px;
+}
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
@@ -55,7 +57,10 @@ body.path-frontpage.page-node-type-home-page {
 /*Center Image ==========*/
 .field--name-field-home-page-image {
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 6% auto;
+}
+.user-logged-in .field--name-field-home-page-image {
+    margin: 0 auto 17% auto;
 }
 
 /*Links at bottom ==========*/
@@ -67,8 +72,8 @@ body.path-frontpage.page-node-type-home-page {
   margin-left: 30px;
 }
 .path-frontpage .navbar-default {
-  background-color: white;
-  border: white;
+  background-color: transparent;
+  border: transparent;
 }
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
@@ -126,6 +131,11 @@ body.path-frontpage.page-node-type-home-page {
    display: inline-block;
    font-size: large;
    padding-top: 10%;
+}
+.block-block-content .field--type-link.field--label-hidden.field--item {
+    font-size: small;
+    padding-top: 5%;
+    margin-left: 7%;
 }
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
