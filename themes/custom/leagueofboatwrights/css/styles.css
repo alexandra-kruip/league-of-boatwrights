@@ -37,7 +37,6 @@ h1.page-header {
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
-
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
@@ -58,8 +57,8 @@ h1.page-header {
   margin-left: 30px;
 }
 .path-frontpage .navbar-default {
-  background-color: white;
-  border: white;
+  background-color: transparent;
+  border: transparent;
 }
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
