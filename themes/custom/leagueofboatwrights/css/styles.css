@@ -38,7 +38,7 @@ h1.page-header {
 
 /*Home Page ===============================*/
 body.path-frontpage.page-node-type-home-page {
-    background-image: url(/images/homepage-background-1x550.png);
+    background: url(images/homepage-background-1x550.png);
     background-repeat: repeat-x;
     background-position: top;
     background-attachment: fixed;
