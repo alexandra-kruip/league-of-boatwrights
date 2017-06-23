@@ -129,6 +129,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
    font-size: large;
    padding-top: 10%;
 }
+footer.footer.container {
+    background-color: #d0d0d0;
+}
 .block-block-content .field--type-link.field--label-hidden.field--item {
     font-size: small;
     padding-top: 5%;
