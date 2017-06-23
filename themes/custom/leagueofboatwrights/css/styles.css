@@ -51,7 +51,7 @@ body.path-frontpage.page-node-type-home-page {
 /*Center Image ==========*/
 .field--name-field-home-page-image {
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 6% auto;
 }
 
 /*Links at bottom ==========*/
@@ -74,7 +74,6 @@ body.path-frontpage.page-node-type-home-page {
   display: inline-block;
   width: 100px;
   margin-left: 10%;
-  margin-top: 5vw;
 }
 .field--item a:hover {
   background: #f0f0f0;
