@@ -56,6 +56,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 300px;
   margin: 0 auto 6% auto;
 }
+.user-logged-in .field--name-field-home-page-image {
+    margin: 0 auto 17% auto;
+}
 
 /*Links at bottom ==========*/
 .field--type-link.field--label-hidden.field--item{
