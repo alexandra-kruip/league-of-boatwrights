@@ -15,8 +15,6 @@ html {
 
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    background: url(images/homepage-background-1x550.png);
-    background-repeat: repeat-x;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +37,13 @@ h1.page-header {
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
+body.path-frontpage.page-node-type-home-page {
+    background-image: url(/images/homepage-background-1x550.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-attachment: fixed;
+}
+
 
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
