@@ -74,6 +74,7 @@ body.path-frontpage.page-node-type-home-page {
   display: inline-block;
   width: 100px;
   margin-left: 10%;
+  margin-top: 5vw;
 }
 .field--item a:hover {
   background: #f0f0f0;
