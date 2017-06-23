@@ -20,8 +20,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
 }
 
-h1.js-quickedit-page-title.page-header {
-    font-family: Cinzel, Serif;
+h1.page-header {
+    font-family: 'Poiret One', sans-serif;
+
 }
 
 p {
