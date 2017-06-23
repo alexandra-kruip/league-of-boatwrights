@@ -33,16 +33,9 @@ a {
 
 
 /* HEADER STYLES =====================================================*/
-.path-frontpage h1.page-header {
+h1.page-header {
   text-align: center;
 }
-
-
-
-
-
-
-
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
@@ -54,7 +47,7 @@ a {
 }
 /*Center Image ==========*/
 .field--name-field-home-page-image {
-  width: 700px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -70,7 +63,6 @@ a {
   background-color: white;
   border: white;
 }
-
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
@@ -78,10 +70,8 @@ a {
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
-  margin-top: 5%;
   margin-left: 10%;
 }
-
 .field--item a:hover {
   background: #f0f0f0;
 }
@@ -91,13 +81,17 @@ a {
    text-align: center;
    width: 100%;
    display: inline-block;
+   font-size: large;
+   padding-top: 10%;
  }
 
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
-   content: 'Boat Design';
+   content: 'Designs';
    text-align: center;
    width: 100%;
    display: inline-block;
+   font-size: large;
+   padding-top: 10%;
  }
 
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
@@ -105,6 +99,8 @@ a {
    text-align: center;
    width: 100%;
    display: inline-block;
+   font-size: large;
+   padding-top: 10%;
  }
 
 .field.field--name-field-academy-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
@@ -112,6 +108,8 @@ a {
    text-align: center;
    width: 100%;
    display: inline-block;
+   font-size: large;
+   padding-top: 10%;
  }
 
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden .field--item > a::after {
@@ -119,10 +117,9 @@ a {
    text-align: center;
    width: 100%;
    display: inline-block;
- }
-
-
-
+   font-size: large;
+   padding-top: 10%;
+}
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
@@ -131,7 +128,11 @@ a {
   display:block
 }
 
-
+/*Coming Soon ==========================*/
+.field--name-field-coming-soon-image {
+  margin: 1% auto 5%;
+  width: 300px;
+}
 /* FOOTER STYLES =====================================================*/
 
 
