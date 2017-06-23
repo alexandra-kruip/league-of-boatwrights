@@ -132,6 +132,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .block-block-content .field--type-link.field--label-hidden.field--item {
     font-size: small;
     display: block;
+    margin: 0;
 }
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
