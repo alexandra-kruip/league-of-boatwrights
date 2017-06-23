@@ -487,3 +487,22 @@ function menu_token_menu_links_discovered_alter(&$links) {
   }
 
 }
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function menu_token_override_form_menu_edit_item_alter(&$form, &$form_state, $form_id) {
+    // Fix how menu token set the default link uuid.
+    if (!empty($form['menu_token_uuid']) && !empty($form['mlid']['#value'])) {
+        $result = db_select('menu_links', 'm')
+            ->condition('mlid', $form['mlid']['#value'], '=')
+            ->condition('router_path', 'menutoken/%', '=')
+            ->fields('m', array('link_path'))
+            ->execute()
+            ->fetchCol();
+
+        if (!empty($result[0])) {
+            $form['menu_token_uuid']['#value'] = $result[0];
+        }
+    }
+}
