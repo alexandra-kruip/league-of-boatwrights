@@ -131,8 +131,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 }
 .block-block-content .field--type-link.field--label-hidden.field--item {
     font-size: small;
-    display: block;
-    padding: 0;
+    padding-top: 5%;
+    margin-left: 7%;
 }
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
