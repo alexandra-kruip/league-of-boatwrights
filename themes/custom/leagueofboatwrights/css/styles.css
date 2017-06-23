@@ -43,6 +43,9 @@ body.path-frontpage.page-node-type-home-page {
     background-repeat: repeat-x;
     background-position: top;
 }
+body.user-logged-in.path-frontpage.page-node-type-home-page {
+    background-size: 1px 800px;
+}
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
