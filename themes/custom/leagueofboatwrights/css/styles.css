@@ -31,16 +31,9 @@ a {
 
 
 /* HEADER STYLES =====================================================*/
-.path-frontpage h1.page-header {
+h1.page-header {
   text-align: center;
 }
-
-
-
-
-
-
-
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
@@ -75,7 +68,6 @@ a {
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
-  margin-top: 5%;
   margin-left: 10%;
 }
 .field--item a:hover {
