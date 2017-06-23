@@ -126,7 +126,11 @@ h1.page-header {
   display:block
 }
 
-
+/*Coming Soon ==========================*/
+.field--name-field-coming-soon-image {
+  margin: 1% auto 5%;
+  width: 300px;
+}
 /* FOOTER STYLES =====================================================*/
 
 
