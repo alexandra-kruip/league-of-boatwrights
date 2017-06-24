@@ -187,15 +187,26 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 footer.footer.container {
 
 }
-.block-block-content .field--type-link.field--label-hidden.field--item {
-    font-size: small;
-    margin-left: 7%;
+
+.footer .field--name-field-boatyard-link-footer {
+    font-size: 80%;
+    margin: 15px 4%;
 }
-.field--name-field-footer-thumb>img.img-responsive {
-    margin: 1.5% auto;
+
+.footer .field--name-field-mission-statement- {
+    max-width: 600px;
+    padding: 0 15px;
 }
-.field.field--name-field-copyright-footer.field--type-string.field--label-hidden.field--item {
-    /* background-color: black; */
-    text-align: center;
-    margin-top: 2%;
-}
+
+/*.block-block-content .field--type-link.field--label-hidden.field--item {*/
+    /*font-size: small;*/
+    /*margin-left: 7%;*/
+/*}*/
+/*.field--name-field-footer-thumb>img.img-responsive {*/
+    /*margin: 1.5% auto;*/
+/*}*/
+/*.field.field--name-field-copyright-footer.field--type-string.field--label-hidden.field--item {*/
+    /*!* background-color: black; *!*/
+    /*text-align: center;*/
+    /*margin-top: 2%;*/
+/*}*/
