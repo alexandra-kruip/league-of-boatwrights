@@ -158,6 +158,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     padding-bottom: 0;
     border-top: 1px solid #E5E5E5;
     background-color: #d0d0d0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 footer.footer.container {
 
