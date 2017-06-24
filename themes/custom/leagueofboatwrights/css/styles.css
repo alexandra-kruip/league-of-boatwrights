@@ -28,7 +28,7 @@ h1.page-header {
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     font-family: 'Poiret One', sans-serif;
     position: relative;
-    top: 380px;
+    top: 350px;
     font-size: 16px;
     color: white;
 }
@@ -55,7 +55,7 @@ body.path-frontpage.page-node-type-home-page {
     background-size: 1px 575px;
 }
 body.user-logged-in.path-frontpage.page-node-type-home-page {
-    background-size: 1px 800px;
+    background-size: 1px 700px;
 }
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
