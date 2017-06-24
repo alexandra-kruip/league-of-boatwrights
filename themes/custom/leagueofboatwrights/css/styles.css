@@ -28,7 +28,8 @@ h1.page-header {
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     font-family: 'Poiret One', sans-serif;
     position: relative;
-    top: 430px;
+    top: 380px;
+    font-size: 16px;
     color: white;
 }
 
@@ -51,6 +52,7 @@ body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
     background-repeat: repeat-x;
     background-position: top;
+    background-size: 1px 575px;
 }
 body.user-logged-in.path-frontpage.page-node-type-home-page {
     background-size: 1px 800px;
