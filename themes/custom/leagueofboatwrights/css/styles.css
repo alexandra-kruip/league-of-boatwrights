@@ -159,3 +159,11 @@ footer.footer.container {
     font-size: small;
     margin-left: 7%;
 }
+.field--name-field-footer-thumb>img.img-responsive {
+    margin: 1.5% auto;
+}
+.field.field--name-field-copyright-footer.field--type-string.field--label-hidden.field--item {
+    /* background-color: black; */
+    text-align: center;
+    margin-top: 2%;
+}
