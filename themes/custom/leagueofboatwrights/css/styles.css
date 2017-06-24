@@ -191,25 +191,25 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 /*}*/
 
 /* Footer links ==========*/
-.footer .field--name-field-boatyard-link-footer {
+.footer .field--type-link {
     font-size: 80%;
-    margin: 15px 4%;
+    margin: 30px 4%;
 }
 
 /* Footer icon ==========*/
-.footer .field--name-field-footer-thumb {
-    margin: 15px auto;
+.footer .field--name-field-footer-thumb img {
+    margin: 30px auto;
 }
 
 /* Footer mission statement ==========*/
 .footer .field--name-field-mission-statement- {
     max-width: 600px;
-    margin: 15px auto;
+    margin: 30px auto;
 }
 
 /* Footer copyright ==========*/
 .footer .field--name-field-copyright-footer {
-    margin: 15px auto;
+    margin: 30px auto;
 }
 
 /*.block-block-content .field--type-link.field--label-hidden.field--item {*/
