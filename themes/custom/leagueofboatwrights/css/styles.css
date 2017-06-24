@@ -74,14 +74,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin: 0 auto 17% auto;
 }
 
-/*Links at bottom ==========*/
-.field--type-link.field--label-hidden.field--item{
-  display: inline-block;
-  padding-left: 50px;
-  padding-top: 20px;
-  font-size: x-large;
-  margin-left: 30px;
-}
 .path-frontpage .navbar-default {
   background-color: transparent;
   border: transparent;
@@ -189,20 +181,33 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 }
 
+/*Links at bottom ==========*/
+/*.field--type-link.field--label-hidden.field--item{*/
+  /*display: inline-block;*/
+  /*padding-left: 50px;*/
+  /*padding-top: 20px;*/
+  /*font-size: x-large;*/
+  /*margin-left: 30px;*/
+/*}*/
+
+/* Footer links ==========*/
 .footer .field--name-field-boatyard-link-footer {
     font-size: 80%;
     margin: 15px 4%;
 }
 
+/* Footer icon ==========*/
 .footer .field--name-field-footer-thumb {
     margin: 15px auto;
 }
 
+/* Footer mission statement ==========*/
 .footer .field--name-field-mission-statement- {
     max-width: 600px;
     margin: 15px auto;
 }
 
+/* Footer copyright ==========*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
 }
