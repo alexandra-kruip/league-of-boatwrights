@@ -159,11 +159,20 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     padding-top: 0;
     padding-bottom: 0;
     border-top: 1px solid #E5E5E5;
+    background-color: #d0d0d0;
 }
 footer.footer.container {
-    background-color: #d0d0d0;
+
 }
 .block-block-content .field--type-link.field--label-hidden.field--item {
     font-size: small;
     margin-left: 7%;
+}
+.field--name-field-footer-thumb>img.img-responsive {
+    margin: 1.5% auto;
+}
+.field.field--name-field-copyright-footer.field--type-string.field--label-hidden.field--item {
+    /* background-color: black; */
+    text-align: center;
+    margin-top: 2%;
 }
