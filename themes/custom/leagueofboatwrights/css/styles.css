@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,6 +85,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .path-frontpage .navbar-default {
   background-color: transparent;
   border: transparent;
+  margin: 0 auto;
 }
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
@@ -92,7 +94,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
-  margin-left: 10%;
+  margin: 3% 4%;
+
 }
 .field--item a:hover {
   background: #f0f0f0;
@@ -156,7 +159,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 300px;
 }
 /* FOOTER STYLES =====================================================*/
-.footer {
+.block-footerj {
     margin-top: 45px;
     padding-top: 0;
     padding-bottom: 0;
