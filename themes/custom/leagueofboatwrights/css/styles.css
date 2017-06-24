@@ -155,11 +155,18 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
-  margin: 1% auto 5%;
-  width: 300px;
+    margin: 1% auto 5%;
+    width: 300px;
 }
 /* FOOTER STYLES =====================================================*/
-.block-footerj {
+/*.footer {*/
+    /*margin-top: 30px;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 50px;*/
+    /*border-top: 2px solid #E5E5E5;*/
+/*}*/
+
+.footer.container{
     margin-top: 45px;
     padding-top: 0;
     padding-bottom: 0;
