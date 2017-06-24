@@ -157,6 +157,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     padding-top: 30px;
     padding-bottom: 50px;
     border-top: 2px solid #E5E5E5;
+    text-align: center;
 }
 
 .footer::before {
@@ -192,7 +193,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /* Footer links ==========*/
 .footer .field--type-link {
-    font-size: 80%;
+    display: inline-block;
     margin: 30px 4%;
 }
 
