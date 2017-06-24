@@ -159,23 +159,31 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     width: 300px;
 }
 /* FOOTER STYLES =====================================================*/
-/*.footer {*/
-    /*margin-top: 30px;*/
-    /*padding-top: 30px;*/
-    /*padding-bottom: 50px;*/
-    /*border-top: 2px solid #E5E5E5;*/
+.footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 2px solid #E5E5E5;
+}
+
+.footer::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+/*.footer.container{*/
+    /*margin-top: 45px;*/
+    /*padding-top: 0;*/
+    /*padding-bottom: 0;*/
+    /*border-top: 1px solid #E5E5E5;*/
+    /*background-color: #d0d0d0;*/
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
+    /*width: 100%;*/
 /*}*/
 
-.footer.container{
-    margin-top: 45px;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-top: 1px solid #E5E5E5;
-    background-color: #d0d0d0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
 footer.footer.container {
 
 }
