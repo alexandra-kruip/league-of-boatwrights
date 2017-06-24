@@ -186,7 +186,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /* Footer copyright ==========*/
 .footer .field--name-field-copyright-footer {
-    margin: 30px auto;
+    margin: 15px auto;
 }
 
 @media (min-width: 768px) {
