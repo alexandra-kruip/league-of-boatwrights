@@ -91,7 +91,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 
 
-@-webkit-keyframes field--name-field-boatyard-thumb {
+@-webkit-keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
@@ -105,7 +105,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
-@keyframes field--name-field-boatyard-thumb {
+@keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
@@ -119,13 +119,13 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
-@-webkit-keyframes field--name-field-boatyard-thumb-float {
+@-webkit-keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
     }
 }
-@keyframes field--name-field-boatyard-thumb-float {
+@keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
@@ -139,8 +139,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     box-shadow: 0 0 1px transparent;
 }
 .field--name-field-boatyard-thumb:hover, .field--name-field-boatyard-thumb:focus, .field--name-field-boatyard-thumb:active {
-    -webkit-animation-name: field--name-field-boatyard-thumb-float, field--name-field-boatyard-thumb;
-    animation-name: field--name-field-boatyard-thumb-float, field--name-field-boatyard-thumb;
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
     animation-duration: .3s, 1.5s;
     -webkit-animation-delay: 0s, .3s;
@@ -157,48 +157,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 
 
-
-
-@-webkit-keyframes field--name-field-icon-image {
-    0% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-    50% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
-    }
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-}
-@keyframes field--name-field-icon-image {
-    0% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-    50% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
-    }
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-}
-@-webkit-keyframes field--name-field-icon-image-float {
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-}
-@keyframes field--name-field-icon-image-float {
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-}
 .field--name-field-icon-image {
     display: inline-block;
     vertical-align: middle;
@@ -207,8 +165,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     box-shadow: 0 0 1px transparent;
 }
 .field--name-field-icon-image:hover, .field--name-field-icon-image:focus, .field--name-field-icon-image:active {
-    -webkit-animation-name: field--name-field-icon-image-float, field--name-field-icon-image;
-    animation-name: field--name-field-icon-image-float, field--name-field-icon-image;
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
     animation-duration: .3s, 1.5s;
     -webkit-animation-delay: 0s, .3s;
