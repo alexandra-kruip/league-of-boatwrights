@@ -150,7 +150,15 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     width: 52%;
     height: 32vh;
 }
-
+.field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
+    float: right;
+    width: 45%;
+}
+.field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
+    /* height: 0%; */
+    width: 45%;
+    float: right;
+}
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
