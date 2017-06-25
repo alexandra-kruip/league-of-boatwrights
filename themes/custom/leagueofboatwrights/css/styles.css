@@ -71,7 +71,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   margin: 0 auto 6% auto;
 }
 .user-logged-in .field--name-field-home-page-image {
-    margin: 0 auto 17% auto;
+    margin: 0 auto 10% auto;
 }
 
 .path-frontpage .navbar-default {
@@ -86,12 +86,187 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
-  margin: 3% 4%;
-
+  margin: 3% 5.4%;
 }
-/*.field--item a:hover {*/
-  /*background: #f0f0f0;*/
-/*}*/
+
+
+
+@-webkit-keyframes bob-animation{
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes bob-animation{
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@-webkit-keyframes bob-animation-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes bob-animation-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+.field--name-field-boatyard-thumb {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-boatyard-thumb:hover, .field--name-field-boatyard-thumb:focus, .field--name-field-boatyard-thumb:active {
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+
+.field--name-field-icon-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-icon-image:hover, .field--name-field-icon-image:focus, .field--name-field-icon-image:active {
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+
+
+
+.field--name-field-homepage-icon-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-homepage-icon-image:hover, .field--name-field-homepage-icon-image:focus, .field--name-field-homepage-icon-image:active {
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+
+
+
+.field--name-field-academy-icon-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-academy-icon-image:hover, .field--name-field-academy-icon-image:focus, .field--name-field-academy-icon-image:active {
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+
+
+
+
+.field--name-field-chandlery-icon-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-chandlery-icon-image:hover, .field--name-field-chandlery-icon-image:focus, .field--name-field-chandlery-icon-image:active {
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
@@ -137,6 +312,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
    font-size: large;
    padding-top: 10%;
 }
+
+
+
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
@@ -144,7 +322,23 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .field--type-image .field--item:first-child {
   display:block
 }
-
+/*Boat Designs*/
+.field.field--name-description.field--type-text-long.field--label-hidden.field--item {
+    float: left;
+    width: 52%;
+    height: 32vh;
+    margin-top: 2%;
+}
+.field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
+    float: right;
+    width: 45%;
+    height: 32vh;
+}
+.field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
+    /* height: 0%; */
+    width: 45%;
+    float: right;
+}
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
@@ -182,7 +376,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /* Footer icon ==========*/
 .footer .field--name-field-footer-thumb img {
-    margin: 30px auto;
+    margin: 5% auto;
 }
 
 /* Footer mission statement ==========*/
@@ -197,5 +391,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 }
 
 @media (min-width: 768px) {
-
+    .footer .field--type-lin {
+        display: block;
+    }
 }
