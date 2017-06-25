@@ -58,7 +58,7 @@ body.path-frontpage.page-node-type-home-page {
     background-size: 100% 575px;
 }
 body.user-logged-in.path-frontpage.page-node-type-home-page {
-    background-size: 1px 700px;
+    background-size: 100% 700px;
 }
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
