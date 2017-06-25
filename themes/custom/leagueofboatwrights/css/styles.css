@@ -53,9 +53,9 @@ h1.page-header {
 
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: top;
-    background-size: 1px 575px;
+    background-size: 100% 575px;
 }
 body.user-logged-in.path-frontpage.page-node-type-home-page {
     background-size: 1px 700px;
@@ -360,8 +360,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
-    border-top: 2px solid #E5E5E5;
     text-align: center;
+    width: 100%;
+    background: #e5e5e5;
 }
 
 .footer::before {
@@ -374,7 +375,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 /* Footer links ==========*/
 .footer .field--type-link {
     display: inline-block;
-    margin: 0 5%;
+    margin: 15px 3%;
 }
 
 .footer .field--type-link a {
@@ -398,5 +399,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 }
 
 @media (min-width: 768px) {
-
+    .footer .field--type-lin {
+        display: block;
+    }
 }
