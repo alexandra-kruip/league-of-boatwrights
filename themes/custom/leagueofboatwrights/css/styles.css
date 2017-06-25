@@ -88,9 +88,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 100px;
   margin: 3% 5.4%;
 }
-.field--name-field-boatyard-thumb:hover{
-    background-color: black;
-}
+
+
+
 @-webkit-keyframes field--name-field-boatyard-thumb {
     0% {
         -webkit-transform: translateY(-8px);
@@ -154,9 +154,76 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-/*.field--item a:hover {*/
-  /*background: #f0f0f0;*/
-/*}*/
+
+
+
+
+
+@-webkit-keyframes field--name-field-icon-image {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes field--name-field-icon-image {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@-webkit-keyframes field--name-field-icon-image-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes field--name-field-icon-image-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+.field--name-field-icon-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-icon-image:hover, .field--name-field-icon-image:focus, .field--name-field-icon-image:active {
+    -webkit-animation-name: field--name-field-icon-image-float, field--name-field-icon-image;
+    animation-name: field--name-field-icon-image-float, field--name-field-icon-image;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
@@ -202,6 +269,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
    font-size: large;
    padding-top: 10%;
 }
+
+
+
 /*Boat log entry ==================================*/
 .field--type-image .field--item {
   display: inline-block;
