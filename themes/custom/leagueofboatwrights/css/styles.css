@@ -59,13 +59,20 @@ body.path-frontpage.page-node-type-home-page {
 }
 
 body.user-logged-in.path-frontpage.page-node-type-home-page {
-    background-size: 1px 700px;
+    background-size: 100% 700px;
 }
 
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
   margin-bottom: 2%;
+}
+
+/*Mission Statement==================================*/
+.field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 0 15px;
 }
 
 /*Center Image ==========*/
