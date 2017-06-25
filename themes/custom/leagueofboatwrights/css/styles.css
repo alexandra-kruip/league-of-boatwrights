@@ -149,6 +149,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     float: left;
     width: 52%;
     height: 32vh;
+    margin-top: 2%;
 }
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     float: right;
