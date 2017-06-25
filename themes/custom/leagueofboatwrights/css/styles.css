@@ -88,8 +88,71 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 100px;
   margin: 3% 5.4%;
 }
-.field.field--name-field-icon-image.field--type-image.field--label-visually_hidden:hover{
+.field--name-field-boatyard-thumb:hover{
     background-color: black;
+}
+@-webkit-keyframes field--name-field-boatyard-thumb {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes field--name-field-boatyard-thumb {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@-webkit-keyframes field--name-field-boatyard-thumb-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@keyframes field--name-field-boatyard-thumb-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+.field--name-field-boatyard-thumb {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.field--name-field-boatyard-thumb:hover, .field--name-field-boatyard-thumb:focus, .field--name-field-boatyard-thumb:active {
+    -webkit-animation-name: field--name-field-boatyard-thumb-float, field--name-field-boatyard-thumb;
+    animation-name: field--name-field-boatyard-thumb-float, field--name-field-boatyard-thumb;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
 }
 /*.field--item a:hover {*/
   /*background: #f0f0f0;*/
