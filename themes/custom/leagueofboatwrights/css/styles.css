@@ -172,7 +172,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 /* Footer links ==========*/
 .footer .field--type-link {
     display: inline-block;
-    margin: 0 3%;
+    margin: 0 5%;
 }
 
 .footer .field--type-link a {
