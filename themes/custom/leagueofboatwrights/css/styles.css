@@ -57,19 +57,23 @@ body.path-frontpage.page-node-type-home-page {
     background-position: top;
     background-size: 100% 575px;
 }
+
 body.user-logged-in.path-frontpage.page-node-type-home-page {
     background-size: 1px 700px;
 }
+
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
   text-align: center;
   margin-bottom: 2%;
 }
+
 /*Center Image ==========*/
 .field--name-field-home-page-image {
   width: 300px;
   margin: 0 auto 6% auto;
 }
+
 .user-logged-in .field--name-field-home-page-image {
     margin: 0 auto 10% auto;
 }
@@ -79,6 +83,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   border: transparent;
   margin: 0 auto;
 }
+
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
@@ -88,8 +93,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 100px;
   margin: 3% 5.4%;
 }
-
-
 
 @-webkit-keyframes bob-animation{
     0% {
@@ -105,6 +108,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
+
 @keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
@@ -119,18 +123,21 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
+
 @-webkit-keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
     }
 }
+
 @keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
     }
 }
+
 .field--name-field-boatyard-thumb {
     display: inline-block;
     vertical-align: middle;
@@ -138,7 +145,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-boatyard-thumb:hover, .field--name-field-boatyard-thumb:focus, .field--name-field-boatyard-thumb:active {
+
+.field--name-field-boatyard-thumb:hover,
+.field--name-field-boatyard-thumb:focus,
+.field--name-field-boatyard-thumb:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -154,8 +164,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
 
 .field--name-field-icon-image {
     display: inline-block;
@@ -164,7 +172,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-icon-image:hover, .field--name-field-icon-image:focus, .field--name-field-icon-image:active {
+
+.field--name-field-icon-image:hover,
+.field--name-field-icon-image:focus,
+.field--name-field-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -180,10 +191,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
-
-
 
 .field--name-field-homepage-icon-image {
     display: inline-block;
@@ -192,7 +199,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-homepage-icon-image:hover, .field--name-field-homepage-icon-image:focus, .field--name-field-homepage-icon-image:active {
+.field--name-field-homepage-icon-image:hover,
+.field--name-field-homepage-icon-image:focus,
+.field--name-field-homepage-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -208,10 +217,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
-
-
 
 .field--name-field-academy-icon-image {
     display: inline-block;
@@ -220,7 +225,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-academy-icon-image:hover, .field--name-field-academy-icon-image:focus, .field--name-field-academy-icon-image:active {
+.field--name-field-academy-icon-image:hover,
+.field--name-field-academy-icon-image:focus,
+.field--name-field-academy-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -237,11 +244,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     animation-direction: normal, alternate;
 }
 
-
-
-
-
-
 .field--name-field-chandlery-icon-image {
     display: inline-block;
     vertical-align: middle;
@@ -249,7 +251,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-chandlery-icon-image:hover, .field--name-field-chandlery-icon-image:focus, .field--name-field-chandlery-icon-image:active {
+
+.field--name-field-chandlery-icon-image:hover,
+.field--name-field-chandlery-icon-image:focus,
+.field--name-field-chandlery-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -390,8 +395,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin: 15px auto;
 }
 
-@media (min-width: 768px) {
-    .footer .field--type-lin {
+@media (max-width: 768px) {
+    .footer .field--type-link {
         display: block;
     }
 }
