@@ -144,6 +144,12 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .field--type-image .field--item:first-child {
   display:block
 }
+/*Boat Designs*/
+.field.field--name-description.field--type-text-long.field--label-hidden.field--item {
+    float: left;
+    width: 52%;
+    height: 32vh;
+}
 
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
