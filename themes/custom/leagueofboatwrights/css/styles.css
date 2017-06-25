@@ -87,7 +87,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   display: inline-block;
   width: 100px;
   margin: 3% 5.4%;
-
+}
+.field.field--name-field-icon-image.field--type-image.field--label-visually_hidden:hover{
+    background-color: black;
 }
 /*.field--item a:hover {*/
   /*background: #f0f0f0;*/
