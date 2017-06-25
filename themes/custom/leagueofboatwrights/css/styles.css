@@ -150,15 +150,17 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin: 1% auto 5%;
     width: 300px;
 }
+
+
 /* FOOTER STYLES =====================================================*/
 
-/*.footer {*/
-    /*margin-top: 30px;*/
-    /*padding-top: 30px;*/
-    /*padding-bottom: 50px;*/
-    /*border-top: 2px solid #E5E5E5;*/
-    /*text-align: center;*/
-/*}*/
+.footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 2px solid #E5E5E5;
+    text-align: center;
+}
 
 .footer::before {
     content: '';
@@ -169,11 +171,12 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /* Footer links ==========*/
 .footer .field--type-link {
-  display: inline-block;
+    display: inline-block;
+    margin: 0 3%;
 }
 
 .footer .field--type-link a {
-    padding: 15px 4%;
+    padding: 15px 15px;
 }
 
 /* Footer icon ==========*/
