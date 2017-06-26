@@ -68,11 +68,37 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     font-size: 150%;
 }
 
-/*Mission Statement==================================*/
+/*==========Mission Statement=============*/
 .field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
     margin: 50px auto;
     max-width: 600px;
     padding: 0 15px;
+}
+
+/*==========Category Description=============*/
+section#block-boatyardblock, section#block-boat-designs-summary {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    margin-right: 15px;
+}
+
+#block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    float: left;
+}
+.field.field--name-field-title.field--type-string.field--label-hidden.field--item {
+    display: inline-block;
+    margin: 78px 0 0 0;
+    font-weight: bold;
+}
+.field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
+    display: block;
+}
+
+#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    float: right;
 }
 
 /*Center Image ==========*/
