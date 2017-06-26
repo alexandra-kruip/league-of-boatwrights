@@ -374,14 +374,11 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin-top: 2%;
 }
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
-    float: right;
-    width: 45%;
-    height: 32vh;
 }
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
-    /* height: 0%; */
     width: 45%;
     float: right;
+    height: 0%;
 }
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
