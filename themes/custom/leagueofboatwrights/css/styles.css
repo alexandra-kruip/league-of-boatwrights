@@ -107,11 +107,10 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*Center Image ==========*/
 .field--name-field-home-page-image img {
-  /*width: 300px;*/
-  /*margin: 0 auto 6% auto;*/
   max-height: 350px;
   width: auto;
   margin: 0 auto;
+  padding-bottom: 5%;
 }
 
 .user-logged-in .field--name-field-home-page-image {
