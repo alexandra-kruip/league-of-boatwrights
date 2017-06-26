@@ -44,6 +44,8 @@ h1.page-header {
   font-size: 55px;
   border-bottom: 2px solid #223a74;
   color: #223a74;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 /* MAIN CONTENT STYLES ===============================================*/
