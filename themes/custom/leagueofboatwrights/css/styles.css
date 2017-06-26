@@ -326,7 +326,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 .field.field--name-description.field--type-text-long.field--label-hidden.field--item {
     float: left;
     width: 52%;
-    height: 32vh;
     margin-top: 2%;
 }
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
