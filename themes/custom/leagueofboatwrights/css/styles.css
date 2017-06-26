@@ -23,11 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-h1.page-header {
-    //font-family: 'Poiret One', sans-serif;
-    font-size: 55px;
-}
-
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     //font-family: 'Poiret One', sans-serif;
     position: relative;
@@ -46,32 +41,81 @@ a {
 /* HEADER STYLES =====================================================*/
 h1.page-header {
   text-align: center;
+  font-size: 55px;
+  border-bottom: 2px solid #223a74;
+  color: #223a74;
 }
+
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
 
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: top;
-    background-size: 1px 575px;
+    background-size: 100% 575px;
 }
+
 body.user-logged-in.path-frontpage.page-node-type-home-page {
-    background-size: 1px 700px;
+    background-size: 100% 700px;
 }
+
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
-  text-align: center;
-  margin-bottom: 2%;
+    text-align: center;
+    margin: 2% 0;
+    font-size: 150%;
 }
+
+/*==========Mission Statement=============*/
+.field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 0 15px;
+}
+
+/*==========Category Description=============*/
+section#block-boatyardblock, section#block-boat-designs-summary,
+section#block-boatwrights, section#block-academy-summary, section#block-chandlery-summary {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    margin-right: 15px;
+}
+
+#block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-boatwrights .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    float: left;
+}
+.field.field--name-field-title.field--type-string.field--label-hidden.field--item {
+    display: inline-block;
+    margin: 78px 0 0 0;
+    font-weight: bold;
+}
+.field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
+    display: block;
+}
+
+#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    float: right;
+}
+
 /*Center Image ==========*/
-.field--name-field-home-page-image {
-  width: 300px;
-  margin: 0 auto 6% auto;
+.field--name-field-home-page-image img {
+  /*width: 300px;*/
+  /*margin: 0 auto 6% auto;*/
+  max-height: 350px;
+  width: auto;
+  margin: 0 auto;
 }
+
 .user-logged-in .field--name-field-home-page-image {
-    margin: 0 auto 17% auto;
+    margin: 0 auto 10% auto;
 }
 
 .path-frontpage .navbar-default {
@@ -79,6 +123,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   border: transparent;
   margin: 0 auto;
 }
+
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
@@ -88,8 +133,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
   width: 100px;
   margin: 3% 5.4%;
 }
-
-
 
 @-webkit-keyframes bob-animation{
     0% {
@@ -105,6 +148,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
+
 @keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
@@ -119,18 +163,21 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
         transform: translateY(-8px);
     }
 }
+
 @-webkit-keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
     }
 }
+
 @keyframes bob-animation-float {
     100% {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
     }
 }
+
 .field--name-field-boatyard-thumb {
     display: inline-block;
     vertical-align: middle;
@@ -138,7 +185,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-boatyard-thumb:hover, .field--name-field-boatyard-thumb:focus, .field--name-field-boatyard-thumb:active {
+
+.field--name-field-boatyard-thumb:hover,
+.field--name-field-boatyard-thumb:focus,
+.field--name-field-boatyard-thumb:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -154,8 +204,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
 
 .field--name-field-icon-image {
     display: inline-block;
@@ -164,7 +212,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-icon-image:hover, .field--name-field-icon-image:focus, .field--name-field-icon-image:active {
+
+.field--name-field-icon-image:hover,
+.field--name-field-icon-image:focus,
+.field--name-field-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -180,10 +231,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
-
-
 
 .field--name-field-homepage-icon-image {
     display: inline-block;
@@ -192,7 +239,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-homepage-icon-image:hover, .field--name-field-homepage-icon-image:focus, .field--name-field-homepage-icon-image:active {
+.field--name-field-homepage-icon-image:hover,
+.field--name-field-homepage-icon-image:focus,
+.field--name-field-homepage-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -208,10 +257,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
-
-
-
 
 .field--name-field-academy-icon-image {
     display: inline-block;
@@ -220,7 +265,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-academy-icon-image:hover, .field--name-field-academy-icon-image:focus, .field--name-field-academy-icon-image:active {
+.field--name-field-academy-icon-image:hover,
+.field--name-field-academy-icon-image:focus,
+.field--name-field-academy-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -237,11 +284,6 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     animation-direction: normal, alternate;
 }
 
-
-
-
-
-
 .field--name-field-chandlery-icon-image {
     display: inline-block;
     vertical-align: middle;
@@ -249,7 +291,10 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-.field--name-field-chandlery-icon-image:hover, .field--name-field-chandlery-icon-image:focus, .field--name-field-chandlery-icon-image:active {
+
+.field--name-field-chandlery-icon-image:hover,
+.field--name-field-chandlery-icon-image:focus,
+.field--name-field-chandlery-icon-image:active {
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
     -webkit-animation-duration: .3s, 1.5s;
@@ -351,8 +396,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 50px;
-    border-top: 2px solid #E5E5E5;
     text-align: center;
+    width: 100%;
+    background: #e5e5e5;
 }
 
 .footer::before {
@@ -365,7 +411,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 /* Footer links ==========*/
 .footer .field--type-link {
     display: inline-block;
-    margin: 0 5%;
+    margin: 15px 2.5%;
 }
 
 .footer .field--type-link a {
@@ -374,7 +420,7 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /* Footer icon ==========*/
 .footer .field--name-field-footer-thumb img {
-    margin: 5% auto;
+    margin: 40px auto;
 }
 
 /* Footer mission statement ==========*/
@@ -388,6 +434,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     margin: 15px auto;
 }
 
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+    .footer .field--type-link {
+        display: block;
+    }
 }
