@@ -76,6 +76,11 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 }
 
 /*==========Category Description=============*/
+section#block-boatyardblock, section#block-boat-designs-summary {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
 .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     margin-right: 15px;
 }
