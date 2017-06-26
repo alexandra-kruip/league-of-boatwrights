@@ -76,7 +76,8 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 }
 
 /*==========Category Description=============*/
-section#block-boatyardblock, section#block-boat-designs-summary {
+section#block-boatyardblock, section#block-boat-designs-summary,
+section#block-boatwrights, section#block-academy-summary, section#block-chandlery-summary {
     max-width: 900px;
     margin: 10px auto;
 }
@@ -85,7 +86,9 @@ section#block-boatyardblock, section#block-boat-designs-summary {
     margin-right: 15px;
 }
 
-#block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+#block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-boatwrights .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: left;
 }
 .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
@@ -97,7 +100,8 @@ section#block-boatyardblock, section#block-boat-designs-summary {
     display: block;
 }
 
-#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: right;
 }
 
