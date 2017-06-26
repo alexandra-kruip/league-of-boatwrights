@@ -23,11 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-h1.page-header {
-    //font-family: 'Poiret One', sans-serif;
-    font-size: 55px;
-}
-
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     //font-family: 'Poiret One', sans-serif;
     position: relative;
@@ -46,7 +41,11 @@ a {
 /* HEADER STYLES =====================================================*/
 h1.page-header {
   text-align: center;
+  font-size: 55px;
+  border-bottom: 2px solid #223a74;
+  color: #223a74;
 }
+
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
@@ -64,8 +63,9 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
 
 /*Slogan ===================*/
 .path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
-  text-align: center;
-  margin-bottom: 2%;
+    text-align: center;
+    margin: 2% 0;
+    font-size: 150%;
 }
 
 /*==========Mission Statement=============*/
@@ -106,9 +106,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 /*Center Image ==========*/
-.field--name-field-home-page-image {
-  width: 300px;
-  margin: 0 auto 6% auto;
+.field--name-field-home-page-image img {
+  /*width: 300px;*/
+  /*margin: 0 auto 6% auto;*/
+  max-height: 350px;
+  width: auto;
+  margin: 0 auto;
 }
 
 .user-logged-in .field--name-field-home-page-image {
@@ -409,7 +412,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 /* Footer links ==========*/
 .footer .field--type-link {
     display: inline-block;
-    margin: 15px 3%;
+    margin: 15px 2.5%;
 }
 
 .footer .field--type-link a {
@@ -418,7 +421,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /* Footer icon ==========*/
 .footer .field--name-field-footer-thumb img {
-    margin: 5% auto;
+    margin: 40px auto;
 }
 
 /* Footer mission statement ==========*/
