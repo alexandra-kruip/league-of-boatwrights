@@ -51,6 +51,11 @@ body:before {
   border-bottom: 10px solid #cd1e2e;
 }
 
+body.path-frontpage:before {
+  height: 0;
+  display: none;
+}
+
 .navbar-default {
   background: none;
   border: none;
