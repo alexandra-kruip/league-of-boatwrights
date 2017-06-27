@@ -16,6 +16,7 @@ html {
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,18 +40,43 @@ a {
 
 
 /* HEADER STYLES =====================================================*/
+
+body:before {
+  content: '';
+  height: 100px;
+  background-color: #223a74;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  border-bottom: 10px solid #cd1e2e;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+
+/* MAIN CONTENT STYLES ===============================================*/
+
+/*Home Page ===============================*/
+
 h1.page-header {
   text-align: center;
   font-size: 55px;
   border-bottom: 2px solid #223a74;
   color: #223a74;
   padding-bottom: 0;
-  margin: 0;
+  margin: 0 0 30px 0;
 }
-
-/* MAIN CONTENT STYLES ===============================================*/
-
-/*Home Page ===============================*/
 
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
@@ -359,6 +385,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    padding-top: 10%;
 }
 
+
+
+/*Boat Design entry ==================================*/
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
 
 
 /*Boat log entry ==================================*/
