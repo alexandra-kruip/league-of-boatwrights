@@ -24,14 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
-    //font-family: 'Poiret One', sans-serif;
-    position: relative;
-    top: 360px;
-    font-size: 16px;
-    color: white;
-}
-
 p {
 }
 
@@ -68,12 +60,21 @@ body.path-frontpage:before {
 .navbar-default .navbar-nav > li > a:hover {
   color: rgba(255,255,255,0.8);
 }
+/*Homepage Navbar ===================*/
+
+.path-frontpage .navbar-default {
+    background-color: transparent;
+    border: transparent;
+    margin: 0 auto;
+}
 
 
 /* MAIN CONTENT STYLES ===============================================*/
 
 /*Home Page ===============================*/
 
+
+/*League of boatwrights text at top==========*/
 h1.page-header {
   text-align: center;
   font-size: 55px;
@@ -83,6 +84,7 @@ h1.page-header {
   margin: 0 0 30px 0;
 }
 
+/*========Water background image==============*/
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
     background-repeat: no-repeat;
@@ -94,8 +96,12 @@ body.user-logged-in.path-frontpage.page-node-type-home-page {
     background-size: 100% 700px;
 }
 
-/*Slogan ===================*/
-.path-frontpage .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item{
+/*==============Slogan ===================*/
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
+//font-family: 'Poiret One', sans-serif;
+    position: relative;
+    top: 360px;
+    color: white;
     text-align: center;
     font-size: 150%;
 }
@@ -114,6 +120,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 10px auto;
 }
 
+/*=========Description Icons=================*/
 .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     margin-right: 15px;
 }
@@ -123,22 +130,23 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: left;
 }
+#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+#block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+    float: right;
+}
+/*=========Description Title==================*/
 .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
     display: inline-block;
     margin: 30px 0 0 0;
     font-weight: bold;
     margin-bottom: 10px;
 }
+/*==========Description paragraph=============*/
 .field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
     display: block;
 }
 
-#block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
-#block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
-    float: right;
-}
-
-/*Center Image ==========*/
+/*=============Center Image==================*/
 .field--name-field-home-page-image img {
   max-height: 350px;
   width: auto;
@@ -149,12 +157,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 0 auto 10% auto;
 }
 
-.path-frontpage .navbar-default {
-  background-color: transparent;
-  border: transparent;
-  margin: 0 auto;
-}
-
+/*===============Icons for homepage ===============*/
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
@@ -165,6 +168,8 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
   margin: 5% 5.4%;
 }
 
+
+/*=========Bob-animation for the icons ===============*/
 @-webkit-keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
@@ -344,6 +349,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 
 
+
+/*The text for links under icons ==============*/
+
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
    text-align: center;
@@ -389,25 +397,26 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    padding-top: 10%;
 }
 
+/*================'Take me there!' text ===================*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
 }
 
 
-/*Boat Design entry ==================================*/
+/*=================Boat Design entry ====================*/
 .table > tbody > tr > td {
   vertical-align: middle;
 }
 
 
-/*Boat log entry ==================================*/
+/*======================Boat log entry ===================*/
 .field--type-image .field--item {
   display: inline-block;
 }
 .field--type-image .field--item:first-child {
   display:block
 }
-/*Boat Designs*/
+/*=====================Boat Designs======================*/
 .field.field--name-description.field--type-text-long.field--label-hidden.field--item {
     float: left;
     width: 52%;
