@@ -25,9 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+
 }
 
 a {
+
 }
 
 
@@ -423,11 +425,13 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin-top: 2%;
 }
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
-}
-.field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     width: 45%;
     float: right;
     height: 0%;
+}
+/*===============Boat Builder profile===========*/
+.field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
+    float: right;
 }
 /*Coming Soon ==========================*/
 .field--name-field-coming-soon-image {
