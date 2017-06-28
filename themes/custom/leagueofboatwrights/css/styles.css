@@ -447,6 +447,27 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .js-form-item > .label {
     color: black;
 }
+
+/*=====================Comments======================*/
+
+article.js-comment {
+    padding: 2%;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+article.js-comment footer > a {
+    display: none;
+}
+
+article.js-comment a.permalink {
+    display: none;
+}
+
+article.js-comment img {
+    border-radius: 50%;
+}
+
 /* FOOTER STYLES =====================================================*/
 .footer {
     margin-top: 30px;
