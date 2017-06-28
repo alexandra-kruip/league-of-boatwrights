@@ -156,7 +156,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 .user-logged-in .field--name-field-home-page-image {
-    margin: 0 auto 10% auto;
+    margin: 0 auto 12% auto;
 }
 
 /*===============Icons for homepage ===============*/
@@ -442,9 +442,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
 }
-
 /* FOOTER STYLES =====================================================*/
-
 .footer {
     margin-top: 30px;
     padding-top: 30px;
