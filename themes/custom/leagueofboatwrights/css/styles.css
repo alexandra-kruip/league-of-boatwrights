@@ -441,6 +441,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 /*Build log entries*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
+    height: 0%;
 }
 
 /*User Profiles*/
