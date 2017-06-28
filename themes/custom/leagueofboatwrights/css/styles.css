@@ -438,7 +438,10 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 1% auto 5%;
     width: 300px;
 }
-
+/*Build log entries*/
+.field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
+    float: right;
+}
 
 /* FOOTER STYLES =====================================================*/
 
