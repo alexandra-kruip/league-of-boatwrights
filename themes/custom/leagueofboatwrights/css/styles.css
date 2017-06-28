@@ -442,6 +442,11 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
 }
+
+/*User Profiles*/
+.js-form-item > .label {
+    color: black;
+}
 /* FOOTER STYLES =====================================================*/
 .footer {
     margin-top: 30px;
