@@ -407,7 +407,22 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
+field--name-field-home-page-image img{
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
 
 /*=========== The text for links under icons =============*/
 
