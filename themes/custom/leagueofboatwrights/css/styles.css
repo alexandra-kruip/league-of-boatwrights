@@ -95,13 +95,13 @@ a.logo.navbar-btn {
     display: inline;
 }
 
-.region.region-navigation-collapsible > form#search-block-form {
+#search-block-form {
     width: 100%;
     max-width: 350px;
     display: inline;
 }
 
-.region.region-navigation-collapsible > div#block-searchform > input-group {
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group > .input-group {
     width: 100%;
     max-width: 350px;
 }
@@ -203,17 +203,21 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-    max-height: 380px;
+    max-height: 370px;
     width: auto;
-    margin: 0 auto 6% auto;
+    margin: 0 auto;
+    /*-webkit-animation-name: bob-animation-float, bob-animation;*/
+    animation-name: bob-animation-float, bob-animation;
+    /*-webkit-animation-duration: .3s, 2s;*/
+    animation-duration: .3s, 2s;
+    /*-webkit-animation-delay: 0s, .3s;*/
+    animation-delay: 0s, .3s;
+    /*-webkit-animation-timing-function: ease-out, ease-in-out;*/
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal, alternate;
 }
-.field.field--name-field-boat-hom-.field--type-image.field--label-hidden.field--item {
-    position: absolute;
-    width: 14vw;
-    left: 552px;
-    top: 60px;
-}
-
 /*.user-logged-in .field--name-field-home-page-image {*/
     /*margin: 0 auto 10% auto;*/
 /*}*/
@@ -407,7 +411,22 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
-
+field--name-field-home-page-image img{
+    -webkit-animation-name: bob-animation-float, bob-animation;
+    animation-name: bob-animation-float, bob-animation;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
 
 /*=========== The text for links under icons =============*/
 
