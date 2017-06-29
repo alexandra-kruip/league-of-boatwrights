@@ -1,13 +1,13 @@
-/* League of Boatwrights CSS =========================================*/
+/*============ League of Boatwrights CSS ================*/
 
-/* COLOR PALETTE =====================================================*/
+/*================== COLOR PALETTE ======================*/
 /* (if you use any custom styles anywhere, add them below as well for easy reference later)
   e.g.:
   #80ced6
  */
 
 
-/* GLOBAL STYLES =====================================================*/
+/*================= GLOBAL STYLES =======================*/
 
 html {
 
@@ -19,7 +19,7 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-family: 'Alegreya SC', Georgia, serif;
     font-weight: 700;
     text-align: center;
@@ -34,7 +34,7 @@ a {
 }
 
 
-/* HEADER STYLES =====================================================*/
+/*=============== HEADER STYLES ==================*/
 
 body:before {
   content: '';
@@ -57,7 +57,7 @@ body:before {
 .navbar-default .navbar-nav > li > a:hover {
   color: rgba(255,255,255,0.8);
 }
-/*Homepage Navbar ===================*/
+/*============= Homepage Navbar =================*/
 
 .path-frontpage .navbar-default {
     background-color: #223a74;
@@ -66,20 +66,20 @@ body:before {
 }
 
 
-/* MAIN CONTENT STYLES ===============================================*/
+/*=========== MAIN CONTENT STYLES ===============*/
 
-/*Home Page ===============================*/
+/*================ Home Page ====================*/
 
-.path-frontpage .region-content .layout__region.layout__region--content {
+.path-frontpage .region-content article.home-page .layout__region.layout__region--content {
   text-align: center;
 }
 
-/*League of boatwrights text at top==========*/
+/*====== League of boatwrights text at top ======*/
 .path-frontpage h1.page-header {
     display: none;
 }
 
-/*========Water background image==============*/
+/*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
     background-repeat: no-repeat;
@@ -91,33 +91,34 @@ body.path-frontpage.page-node-type-home-page {
     /*background-size: 100% 700px;*/
 /*}*/
 
-/*==============Slogan ===================*/
+/*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     position: relative;
     top: 360px;
     color: white;
     text-align: center;
     font-size: 150%;
+    font-family: 'Alegreya SC', Georgia, serif;
 }
 
-/*==========Mission Statement=============*/
+/*============== Mission Statement ==============*/
 .field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
   margin: 50px auto;
   max-width: 700px;
-  padding: 30px 50px;
+  padding: 30px 40px;
   background-color: #f0f0f0;
   border-radius: 4px;
   text-align: left;
 }
 
-/*==========Category Description=============*/
+/*============ Category Description =============*/
 section#block-boatyardblock, section#block-boat-designs-summary,
 section#block-boatwrights, section#block-academy-summary, section#block-chandlery-summary {
     max-width: 900px;
-    margin: 10px auto;
+    margin: 50px auto;
 }
 
-/*=========Description Icons=================*/
+/*============ Description Icons ================*/
 .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     margin-right: 15px;
 }
@@ -127,23 +128,28 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: left;
 }
+
 #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
 #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: right;
 }
-/*=========Description Title==================*/
+
+
+/*============ Description Title ================*/
 .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
     display: inline-block;
     margin: 30px 0 0 0;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 150%;
+    font-family: 'Alegreya SC', Georgia, serif;
 }
-/*==========Description paragraph=============*/
+/*=========== Description paragraph =============*/
 .field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
     display: block;
 }
 
-/*=============Center Image==================*/
+/*============== Center Image ===================*/
 .field--name-field-home-page-image img {
   max-height: 350px;
   width: auto;
@@ -154,7 +160,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 0 auto 10% auto;
 }
 
-/*===============Icons for homepage ===============*/
+/*============= Icons for homepage ===============*/
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
 .field.field--name-field-icon-image.field--type-image.field--label-visually_hidden,
 .field.field--name-field-homepage-icon-image.field--type-image.field--label-visually_hidden,
@@ -166,7 +172,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 
-/*=========Bob-animation for the icons ===============*/
+/*========= Bob-animation for the icons ==========*/
 @-webkit-keyframes bob-animation{
     0% {
         -webkit-transform: translateY(-8px);
@@ -345,9 +351,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 
-
-
-/*The text for links under icons ==============*/
+/*=========== The text for links under icons =============*/
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
@@ -405,26 +409,26 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 {
     display: inline-flex;
 }
-/*================'Take me there!' text ===================*/
+/*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
 }
 
 
-/*=================Boat Design entry ====================*/
+/*============== Boat Design entry =================*/
 .table > tbody > tr > td {
   vertical-align: middle;
 }
 
 
-/*======================Boat log entry ===================*/
+/*=============== Boat log entry ===================*/
 .field--type-image .field--item {
   display: inline-block;
 }
 .field--type-image .field--item:first-child {
   display:block
 }
-/*=====================Boat Designs======================*/
+/*================ Boat Designs ====================*/
 .field.field--name-description.field--type-text-long.field--label-hidden.field--item {
     float: left;
     width: 52%;
@@ -435,30 +439,44 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     float: right;
     height: 0%;
 }
-/*===============Boat Builder profile===========*/
+/*=============== Boat Builder profile =============*/
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
 }
-/*Coming Soon ==========================*/
+
+/*=============== Boatwright Page ==================*/
+.field.field--name-field-about-me-user.field--type-string-long.field--label-inline {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+section#block-views-block-boatwright-listings-block-1 {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+/*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
     width: 300px;
 }
-/*Build log entries*/
+/*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
+    height: 0%;
 }
 
-/*User Profiles*/
+/*================= User Profiles ==================*/
 .js-form-item > .label {
     color: black;
 }
 
-/*=====================Comments======================*/
+/*=================== Comments =====================*/
 
 article.js-comment {
     padding: 2%;
-    border: 0.5px solid black;
+    border: 0.5px solid lightgray;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -474,7 +492,7 @@ article.js-comment img {
     border-radius: 50%;
 }
 
-/* FOOTER STYLES =====================================================*/
+/*================ FOOTER STYLES ===================*/
 .footer {
     margin-top: 30px;
     padding-top: 30px;
@@ -491,7 +509,7 @@ article.js-comment img {
     background-color: #eee;
 }
 
-/* Footer links ==========*/
+/*================ Footer links ===================*/
 .footer .field--type-link {
     display: inline-block;
     margin: 15px 2.5%;
@@ -501,24 +519,48 @@ article.js-comment img {
     padding: 15px 15px;
 }
 
-/* Footer icon ==========*/
+/*================ Footer icon ====================*/
 .footer .field--name-field-footer-thumb img {
     margin: 40px auto;
 }
 
-/* Footer mission statement ==========*/
+/*============ Footer mission statement ===========*/
 .footer .field--name-field-mission-statement {
     max-width: 600px;
     margin: 30px auto 50px auto;
 }
 
-/* Footer copyright ==========*/
+/*=============== Footer copyright ================*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
 }
 
+
+
+
+/* */
 @media (max-width: 768px) {
     .footer .field--type-link {
         display: block;
+    }
+
+    .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
+      margin: 10px 0 0 0;
+    }
+
+    #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+    #block-boatwrights .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+    #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+    #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
+    #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
+      float: none;
+    }
+
+    #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
+    #block-boatwrights .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
+    #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
+    #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
+    #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img {
+      margin: 0 auto;
     }
 }
