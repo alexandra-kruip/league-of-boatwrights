@@ -188,12 +188,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field--name-field-home-page-image img {
     max-height: 350px;
     width: auto;
-    margin: 0 auto;
-}
-
-.user-logged-in .field--name-field-home-page-image {
     margin: 0 auto 10% auto;
 }
+
+/*.user-logged-in .field--name-field-home-page-image {*/
+    /*margin: 0 auto 10% auto;*/
+/*}*/
 
 /*============= Icons for homepage ===============*/
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
