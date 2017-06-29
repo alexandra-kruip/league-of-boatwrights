@@ -58,23 +58,27 @@ body:before {
   color: rgba(255,255,255,0.8);
 }
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: rgba(255,255,255,0.2);
+    color: white;
+    background-color: rgba(255,255,255,0.2);
 }
 
 .navbar-collapse {
-  background-color: #223a74;
+    background-color: #223a74;
 }
 
 div.navbar-header img {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
 }
 
-a.logo.navbar-btn.pull-left {
-  margin: 14px 0;
+a.logo.navbar-btn {
+    margin: 14px 0;
+    max-width: 80%;
 }
 
 /*============= Homepage Navbar =================*/
@@ -455,6 +459,11 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
   vertical-align: middle;
 }
 
+/*================ Label spacing ===================*/
+.field--label-above {
+  margin-bottom: 15px;
+}
+
 
 /*=============== Boat log entry ===================*/
 .field--type-image .field--item {
@@ -630,5 +639,15 @@ article.js-comment img {
     section#block-academy-summary,
     section#block-chandlery-summary {
       padding: 0 4%;
+    }
+
+    .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
+      float: none;
+      height: auto;
+      text-align: center;
+    }
+
+    .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items img.responsive {
+      margin-bottom: 10px;
     }
 }
