@@ -58,6 +58,10 @@ body:before {
   color: rgba(255,255,255,0.8);
 }
 
+.navbar-collapse {
+  background-color: #223a74;
+}
+
 div.navbar-header img {
     width: 350px;
 }
@@ -459,6 +463,10 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     width: 45%;
     float: right;
     height: 0%;
+}
+
+.tablesaw-stack tbody tr {
+  border-bottom: 2px solid #223a74;
 }
 
 /*=============== Boat Builder profile =============*/
