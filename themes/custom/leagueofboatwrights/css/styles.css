@@ -124,15 +124,10 @@ body.path-frontpage.page-node-type-home-page {
     background-position: top;
     background-size: 100% 575px;
 }
-
-/*body.user-logged-in.path-frontpage.page-node-type-home-page {*/
-    /*background-size: 100% 700px;*/
-/*}*/
-
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     position: relative;
-    top: 360px;
+    bottom: 50px;
     color: white;
     text-align: center;
     font-size: 150%;
@@ -192,12 +187,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field--name-field-home-page-image img {
     max-height: 350px;
     width: auto;
-    margin: 0 auto;
-}
-
-.user-logged-in .field--name-field-home-page-image {
     margin: 0 auto 10% auto;
 }
+
+/*.user-logged-in .field--name-field-home-page-image {*/
+    /*margin: 0 auto 10% auto;*/
+/*}*/
 
 /*============= Icons for homepage ===============*/
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden,
@@ -437,17 +432,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    padding-top: 10%;
 }
 /*==============Boat Profile========================*/
-/*.views-field.views-field-field-hull-material,*/
-/*.views-field.views-field-field-adhesives,*/
-/*.views-field.views-field-field-coat,*/
-/*.views-field.views-field-field-sail,*/
-/*.views-field.views-field-field-sealant,*/
-/*.views-field.views-field-field-skin,*/
-/*.views-field.views-field-field-spars,*/
-/*.views-field.views-field-field-varnish-oil*/
-/*{*/
-    /*display: inline-flex;*/
-/*}*/
+.view-boat-photos-description-block .field-content {
+    display: inline;
+}
+.view-boat-photos-description-block .views-label {
+    font-weight: bold;
+}
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -490,6 +480,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .tablesaw-stack tbody tr {
   border-bottom: 2px solid #223a74;
 }
+
 
 /*=============== Boat Builder profile =============*/
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
@@ -615,6 +606,10 @@ article.js-comment img {
 
     .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
       margin: 10px 0 0 0;
+    }
+
+    span.tablesaw-cell-content {
+        margin-left: 15%;
     }
 
     #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
