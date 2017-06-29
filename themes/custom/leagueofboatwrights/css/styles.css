@@ -59,11 +59,11 @@ body:before {
 }
 /*============= Homepage Navbar =================*/
 
-.path-frontpage .navbar-default {
-    background-color: #223a74;
-    border: transparent;
-    margin: 0 auto;
-}
+/*.path-frontpage .navbar-default {*/
+    /*background-color: #223a74;*/
+    /*border: transparent;*/
+    /*margin: 0 auto;*/
+/*}*/
 
 
 /*=========== MAIN CONTENT STYLES ===============*/
