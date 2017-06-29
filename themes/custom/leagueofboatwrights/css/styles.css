@@ -474,6 +474,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
   border-bottom: 2px solid #223a74;
 }
 
+
 /*=============== Boat Builder profile =============*/
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
@@ -598,6 +599,10 @@ article.js-comment img {
 
     .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
       margin: 10px 0 0 0;
+    }
+
+    span.tablesaw-cell-content {
+        margin-left: 15%;
     }
 
     #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
