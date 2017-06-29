@@ -22,6 +22,9 @@ body {
 h1, h2, h3{
     font-family: 'Alegreya SC', Georgia, serif;
     font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+    color: #223a74;
 }
 p {
 
