@@ -137,10 +137,10 @@ h1.page-header {
 
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
-    background: url(images/homepage-background-1x550.png), url(images/league-of-boatwrights-sailboat-700.png);
+    background: url(images/league-of-boatwrights-background-elements.png), url(images/homepage-background-1x550.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 575px;
+    background-size:  1070px 350px , 100% 575px;
 }
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
