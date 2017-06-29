@@ -71,7 +71,7 @@ body:before {
 
 /*Home Page ===============================*/
 
-.path-frontpage .region-content .layout__region.layout__region--content {
+.path-frontpage .region-content article.home-page .layout__region.layout__region--content {
   text-align: center;
 }
 
@@ -105,7 +105,7 @@ body.path-frontpage.page-node-type-home-page {
 .field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
   margin: 50px auto;
   max-width: 700px;
-  padding: 30px 50px;
+  padding: 30px 40px;
   background-color: #f0f0f0;
   border-radius: 4px;
   text-align: left;
