@@ -19,7 +19,7 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-family: 'Alegreya SC', Georgia, serif;
     font-weight: 700;
     text-align: center;
@@ -98,6 +98,7 @@ body.path-frontpage.page-node-type-home-page {
     color: white;
     text-align: center;
     font-size: 150%;
+    font-family: 'Alegreya SC', Georgia, serif;
 }
 
 /*==========Mission Statement=============*/
@@ -114,7 +115,7 @@ body.path-frontpage.page-node-type-home-page {
 section#block-boatyardblock, section#block-boat-designs-summary,
 section#block-boatwrights, section#block-academy-summary, section#block-chandlery-summary {
     max-width: 900px;
-    margin: 10px auto;
+    margin: 50px auto;
 }
 
 /*=========Description Icons=================*/
@@ -127,12 +128,17 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: left;
 }
+
 #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
 #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item {
     float: right;
 }
 
 @media (max-width: 768px) {
+  .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
+    margin: 10px 0 0 0;
+  }
+
   #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
   #block-boatwrights .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
   #block-chandlery-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
@@ -157,6 +163,8 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 30px 0 0 0;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 150%;
+    font-family: 'Alegreya SC', Georgia, serif;
 }
 /*==========Description paragraph=============*/
 .field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
