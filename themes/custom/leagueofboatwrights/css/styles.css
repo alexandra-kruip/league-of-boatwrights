@@ -126,12 +126,12 @@ body.path-frontpage.page-node-type-home-page {
 }
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
-    position: relative;
-    bottom: 50px;
-    color: white;
-    text-align: center;
-    font-size: 150%;
-    font-family: 'Alegreya SC', Georgia, serif;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Alegreya SC', Georgia, serif;
+  margin: 50px auto;
+  line-height: 100%;
 }
 
 /*============== Mission Statement ==============*/
