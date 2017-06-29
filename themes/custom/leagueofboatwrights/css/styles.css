@@ -23,7 +23,6 @@ h1, h2, h3{
     font-family: 'Alegreya SC', Georgia, serif;
     font-weight: 700;
 }
-
 p {
 
 }
@@ -71,7 +70,7 @@ body:before {
 
 
 /*League of boatwrights text at top==========*/
-h1.page-header {
+.path-frontpage h1.page-header {
     display: none;
 }
 
