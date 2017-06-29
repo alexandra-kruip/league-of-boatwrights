@@ -71,6 +71,9 @@ body:before {
 
 /*Home Page ===============================*/
 
+.path-frontpage .region-content .layout__region.layout__region--content {
+  text-align: center;
+}
 
 /*League of boatwrights text at top==========*/
 .path-frontpage h1.page-header {
@@ -91,7 +94,6 @@ body.path-frontpage.page-node-type-home-page {
 
 /*==============Slogan ===================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
-//font-family: 'Poiret One', sans-serif;
     position: relative;
     top: 360px;
     color: white;
@@ -101,9 +103,12 @@ body.path-frontpage.page-node-type-home-page {
 
 /*==========Mission Statement=============*/
 .field.field--name-field-mission-statement.field--type-string-long.field--label-inline {
-    margin: 50px auto;
-    max-width: 600px;
-    padding: 0 15px;
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 30px 50px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  text-align: left;
 }
 
 /*==========Category Description=============*/
