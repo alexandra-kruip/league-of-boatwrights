@@ -89,9 +89,27 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
+.region.region-navigation-collapsible {
+    width: 100%;
+    max-width: 350px;
+    display: inline;
+}
+
+div#block-searchform {
+    display: inline;
+    width: 100%;
+    max-width: 350px;
+}
+
 div.navbar-header input-group {
     width: 100%;
     max-width: 350px;
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+    width: 100%;
+    max-width: 350px;
+    display: inline;
 }
 
 
@@ -524,7 +542,11 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 /*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
-    height: 0;
+    margin-bottom: 20px;
+}
+
+.layout__region section {
+    clear: both;
 }
 
 /*================= User Profiles ==================*/
@@ -607,10 +629,6 @@ article.js-comment img {
 
     .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
       margin: 10px 0 0 0;
-    }
-
-    span.tablesaw-cell-content {
-        margin-left: 15%;
     }
 
     #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
