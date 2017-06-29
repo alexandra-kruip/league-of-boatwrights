@@ -351,9 +351,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 
-
-
-/*The text for links under icons ==============*/
+/*=========== The text for links under icons =============*/
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
@@ -399,7 +397,18 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    font-size: large;
    padding-top: 10%;
 }
-
+/*==============Boat Profile========================*/
+.views-field.views-field-field-hull-material,
+.views-field.views-field-field-adhesives,
+.views-field.views-field-field-coat,
+.views-field.views-field-field-sail,
+.views-field.views-field-field-sealant,
+.views-field.views-field-field-skin,
+.views-field.views-field-field-spars,
+.views-field.views-field-field-varnish-oil
+{
+    display: inline-flex;
+}
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -434,18 +443,31 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
 }
+
+/*=============== Boatwright Page ==================*/
+.field.field--name-field-about-me-user.field--type-string-long.field--label-inline {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+section#block-views-block-boatwright-listings-block-1 {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
     width: 300px;
 }
-/*Build log entries*/
+/*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
     height: 0%;
 }
 
-/*User Profiles*/
+/*================= User Profiles ==================*/
 .js-form-item > .label {
     color: black;
 }
