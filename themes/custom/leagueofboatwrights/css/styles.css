@@ -58,6 +58,13 @@ body:before {
   color: rgba(255,255,255,0.8);
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: rgba(255,255,255,0.2);
+}
+
 .navbar-collapse {
   background-color: #223a74;
 }
@@ -162,8 +169,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     display: inline-block;
     margin: 20px 0 10px 0;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 170%;
     font-family: 'Alegreya SC', Georgia, serif;
+    line-height: 100%;
 }
 
 /*=========== Description paragraph =============*/
