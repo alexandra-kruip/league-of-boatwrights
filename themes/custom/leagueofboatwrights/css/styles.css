@@ -373,9 +373,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 }
 
 
-
-
-/*The text for links under icons ==============*/
+/*=========== The text for links under icons =============*/
 
 .field.field--name-field-boatyard-thumb.field--type-image.field--label-visually_hidden .field--item > a::after {
    content: 'Boatyard';
@@ -456,18 +454,31 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
 }
+
+/*=============== Boatwright Page ==================*/
+.field.field--name-field-about-me-user.field--type-string-long.field--label-inline {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+section#block-views-block-boatwright-listings-block-1 {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
     width: 300px;
 }
-/*Build log entries*/
+/*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
     height: 0%;
 }
 
-/*User Profiles*/
+/*================= User Profiles ==================*/
 .js-form-item > .label {
     color: black;
 }
