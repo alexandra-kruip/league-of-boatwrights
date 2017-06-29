@@ -89,9 +89,27 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
-div.navbar-header input-group {
+.region.region-navigation-collapsible, div#block-searchform {
     width: 100%;
     max-width: 350px;
+    display: inline;
+}
+
+.region.region-navigation-collapsible > form#search-block-form {
+    width: 100%;
+    max-width: 350px;
+    display: inline;
+}
+
+.region.region-navigation-collapsible > div#block-searchform > input-group {
+    width: 100%;
+    max-width: 350px;
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+    width: 100%;
+    max-width: 350px;
+    display: inline;
 }
 
 
@@ -119,10 +137,10 @@ h1.page-header {
 
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
-    background: url(images/homepage-background-1x550.png);
+    background: url(images/league-of-boatwrights-background-elements.png), url(images/homepage-background-1x550.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100% 575px;
+    background-position: center 140px, top;
+    background-size: 1070px 350px , 100% 575px;
 }
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
@@ -185,9 +203,15 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-    max-height: 350px;
+    max-height: 380px;
     width: auto;
     margin: 0 auto 10% auto;
+}
+.field.field--name-field-boat-hom-.field--type-image.field--label-hidden.field--item {
+    position: absolute;
+    width: 14vw;
+    left: 552px;
+    top: 60px;
 }
 
 /*.user-logged-in .field--name-field-home-page-image {*/
@@ -518,7 +542,16 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 /*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
-    height: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.layout__region section {
+    clear: both;
+}
+
+img.img-responsive {
+    border: 3px solid #f5f5f5;
 }
 
 /*================= User Profiles ==================*/
@@ -601,10 +634,6 @@ article.js-comment img {
 
     .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
       margin: 10px 0 0 0;
-    }
-
-    span.tablesaw-cell-content {
-        margin-left: 15%;
     }
 
     #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
