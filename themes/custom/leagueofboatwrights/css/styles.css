@@ -398,17 +398,17 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    padding-top: 10%;
 }
 /*==============Boat Profile========================*/
-.views-field.views-field-field-hull-material,
-.views-field.views-field-field-adhesives,
-.views-field.views-field-field-coat,
-.views-field.views-field-field-sail,
-.views-field.views-field-field-sealant,
-.views-field.views-field-field-skin,
-.views-field.views-field-field-spars,
-.views-field.views-field-field-varnish-oil
-{
-    display: inline-flex;
-}
+/*.views-field.views-field-field-hull-material,*/
+/*.views-field.views-field-field-adhesives,*/
+/*.views-field.views-field-field-coat,*/
+/*.views-field.views-field-field-sail,*/
+/*.views-field.views-field-field-sealant,*/
+/*.views-field.views-field-field-skin,*/
+/*.views-field.views-field-field-spars,*/
+/*.views-field.views-field-field-varnish-oil*/
+/*{*/
+    /*display: inline-flex;*/
+/*}*/
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
