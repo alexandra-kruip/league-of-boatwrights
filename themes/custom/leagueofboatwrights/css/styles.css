@@ -122,7 +122,7 @@ body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png), url(images/league-of-boatwrights-sailboat-700.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 575px, 30%;
+    background-size: 100% 575px;
 }
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
