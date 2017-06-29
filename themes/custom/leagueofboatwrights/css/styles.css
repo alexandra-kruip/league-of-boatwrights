@@ -203,9 +203,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-    max-height: 380px;
+    max-height: 370px;
     width: auto;
-    margin: 0 auto 6% auto;
+    margin: 0 auto ;
 }
 .field.field--name-field-boat-hom-.field--type-image.field--label-hidden.field--item {
     position: absolute;
