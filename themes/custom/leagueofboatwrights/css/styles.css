@@ -61,6 +61,11 @@ body:before {
 div.navbar-header img {
     width: 350px;
 }
+
+a.logo.navbar-btn.pull-left {
+  margin: 14px 0;
+}
+
 /*============= Homepage Navbar =================*/
 
 /*.path-frontpage .navbar-default {*/
@@ -80,12 +85,18 @@ div.navbar-header img {
 
 /*====== League of boatwrights text at top ======*/
 h1{
-    border-bottom: 1px solid #223a74 ;
 }
+
+h1.page-header {
+  margin: 40px 0 30px;
+  border-bottom: 2px solid #223a74;
+}
+
 .path-frontpage h1.page-header {
     display: none;
     border-bottom: none;
 }
+
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
