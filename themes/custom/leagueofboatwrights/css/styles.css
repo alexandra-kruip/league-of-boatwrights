@@ -2,8 +2,10 @@
 
 /*================== COLOR PALETTE ======================*/
 /* (if you use any custom styles anywhere, add them below as well for easy reference later)
-  e.g.:
-  #80ced6
+
+  navy blue:  #223a74
+  red:        #cd1e2e
+
  */
 
 
@@ -25,6 +27,11 @@ h1, h2, h3 {
     text-align: center;
     color: #223a74;
 }
+
+h2, h3 {
+    text-align: left;
+}
+
 p {
 
 }
@@ -101,10 +108,9 @@ a.logo.navbar-btn {
     display: inline;
 }
 
-.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group > input-group {
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group > .input-group {
     width: 100%;
     max-width: 350px;
-    display: inline;
 }
 
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
@@ -575,6 +581,13 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     border: 3px solid #f5f5f5;
 }
 
+.field.field--name-field-boat.field--type-entity-reference.field--label-inline,
+.field.field--name-field-week-number.field--type-integer.field--label-inline,
+.field.field--name-field-build-date.field--type-datetime.field--label-inline,
+.field.field--name-field-build-hours.field--type-float.field--label-inline {
+    margin: 10px 0;
+}
+
 /*================= User Profiles ==================*/
 .js-form-item > .label {
     color: black;
@@ -631,6 +644,8 @@ article.js-comment img {
 /*================ Footer icon ====================*/
 .footer .field--name-field-footer-thumb img {
     margin: 40px auto;
+    max-width: 350px;
+    opacity: 0.4;
 }
 
 /*============ Footer mission statement ===========*/
