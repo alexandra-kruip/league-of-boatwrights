@@ -75,13 +75,13 @@ body:before {
 }
 
 /*====== League of boatwrights text at top ======*/
-.path-frontpage h1.page-header {
-    display: none;
-}
 h1{
     border-bottom: 1px solid #223a74 ;
 }
-
+.path-frontpage h1.page-header {
+    display: none;
+    border-bottom: none;
+}
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
