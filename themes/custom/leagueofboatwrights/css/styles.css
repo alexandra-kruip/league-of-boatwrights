@@ -95,13 +95,13 @@ a.logo.navbar-btn {
     display: inline;
 }
 
-.region.region-navigation-collapsible form#search-block-form {
+.region.region-navigation-collapsible > form#search-block-form {
     width: 100%;
     max-width: 350px;
     display: inline;
 }
 
-.region.region-navigation-collapsible div#block-searchform > input-group {
+.region.region-navigation-collapsible > div#block-searchform > input-group {
     width: 100%;
     max-width: 350px;
 }
@@ -543,10 +543,15 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 .field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .layout__region section {
     clear: both;
+}
+
+img.img-responsive {
+    border: 3px solid #f5f5f5;
 }
 
 /*================= User Profiles ==================*/
