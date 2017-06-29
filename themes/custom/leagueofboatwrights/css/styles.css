@@ -525,10 +525,15 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 .field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .layout__region section {
     clear: both;
+}
+
+img.img-responsive {
+    border: 3px solid #f5f5f5;
 }
 
 /*================= User Profiles ==================*/
