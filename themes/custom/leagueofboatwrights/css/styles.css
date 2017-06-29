@@ -146,6 +146,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     font-size: 150%;
     font-family: 'Alegreya SC', Georgia, serif;
 }
+
 /*=========== Description paragraph =============*/
 .field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
     display: block;
@@ -153,9 +154,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-  max-height: 350px;
-  width: auto;
-  margin: 0 auto;
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto;
 }
 
 .user-logged-in .field--name-field-home-page-image {
@@ -427,20 +428,24 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field--type-image .field--item {
   display: inline-block;
 }
+
 .field--type-image .field--item:first-child {
   display:block
 }
+
 /*================ Boat Designs ====================*/
 .field.field--name-description.field--type-text-long.field--label-hidden.field--item {
     float: left;
     width: 52%;
     margin-top: 2%;
 }
+
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     width: 45%;
     float: right;
     height: 0%;
 }
+
 /*=============== Boat Builder profile =============*/
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
@@ -470,10 +475,11 @@ section#block-views-block-boatwright-listings-block-1 {
     margin: 1% auto 5%;
     width: 300px;
 }
+
 /*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
-    height: 0%;
+    height: 0;
 }
 
 /*================= User Profiles ==================*/
@@ -489,6 +495,7 @@ article.js-comment {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 article.js-comment footer > a {
     display: none;
 }
