@@ -457,10 +457,10 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin-top: 30px;
 }
 
-section#block-views-block-boatwright-listings-block-1 {
-    display: inline-block;
-    margin-top: 15px;
-}
+/*section#block-views-block-boatwright-listings-block-1 {*/
+    /*display: inline-block;*/
+    /*margin-top: 15px;*/
+/*}*/
 
 .contextual-region.view.view-add-boat-button.view-id-add_boat_button.view-display-id-block_1 {
     clear: both;
@@ -472,6 +472,10 @@ section#block-views-block-boatwright-listings-block-1 {
 
 span.views-label.views-label-field-rank, span.views-label.views-label-login, span.views-label.views-label-created, span.views-label.views-label-field-about-me-user {
     font-weight: bold;
+}
+
+.views-field.views-field-field-about-me-user {
+    margin-top: 15px;
 }
 
 /*================ Coming Soon =====================*/
