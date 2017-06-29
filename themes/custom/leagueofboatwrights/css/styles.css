@@ -75,10 +75,13 @@ body:before {
 }
 
 /*====== League of boatwrights text at top ======*/
+h1{
+    border-bottom: 1px solid #223a74 ;
+}
 .path-frontpage h1.page-header {
     display: none;
+    border-bottom: none;
 }
-
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
     background: url(images/homepage-background-1x550.png);
@@ -138,12 +141,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 /*============ Description Title ================*/
 .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
     display: inline-block;
-    margin: 30px 0 0 0;
+    margin: 20px 0 10px 0;
     font-weight: bold;
-    margin-bottom: 10px;
     font-size: 150%;
     font-family: 'Alegreya SC', Georgia, serif;
 }
+
 /*=========== Description paragraph =============*/
 .field.field--name-field-summary.field--type-string.field--label-hidden.field--item {
     display: block;
@@ -151,9 +154,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-  max-height: 350px;
-  width: auto;
-  margin: 0 auto;
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto;
 }
 
 .user-logged-in .field--name-field-home-page-image {
@@ -425,20 +428,24 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field--type-image .field--item {
   display: inline-block;
 }
+
 .field--type-image .field--item:first-child {
   display:block
 }
+
 /*================ Boat Designs ====================*/
 .field.field--name-description.field--type-text-long.field--label-hidden.field--item {
     float: left;
     width: 52%;
     margin-top: 2%;
 }
+
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     width: 45%;
     float: right;
     height: 0%;
 }
+
 /*=============== Boat Builder profile =============*/
 .field.field--name-field-designer-photo.field--type-image.field--label-hidden.field--item{
     float: right;
@@ -472,10 +479,11 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     margin: 1% auto 5%;
     width: 300px;
 }
+
 /*=============== Build log entries ================*/
 .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
     float: right;
-    height: 0%;
+    height: 0;
 }
 
 /*================= User Profiles ==================*/
@@ -491,6 +499,7 @@ article.js-comment {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 article.js-comment footer > a {
     display: none;
 }
