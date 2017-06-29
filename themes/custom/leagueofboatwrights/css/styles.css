@@ -397,7 +397,18 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
    font-size: large;
    padding-top: 10%;
 }
-
+/*==============Boat Profile========================*/
+/*.views-field.views-field-field-hull-material,*/
+/*.views-field.views-field-field-adhesives,*/
+/*.views-field.views-field-field-coat,*/
+/*.views-field.views-field-field-sail,*/
+/*.views-field.views-field-field-sealant,*/
+/*.views-field.views-field-field-skin,*/
+/*.views-field.views-field-field-spars,*/
+/*.views-field.views-field-field-varnish-oil*/
+/*{*/
+    /*display: inline-flex;*/
+/*}*/
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -534,7 +545,7 @@ article.js-comment img {
 
 
 
-/* */
+/*================ Media queries== ================*/
 @media (max-width: 768px) {
     .footer .field--type-link {
         display: block;
@@ -558,5 +569,13 @@ article.js-comment img {
     #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
     #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img {
       margin: 0 auto;
+    }
+
+    section#block-boatyardblock,
+    section#block-boat-designs-summary,
+    section#block-boatwrights,
+    section#block-academy-summary,
+    section#block-chandlery-summary {
+      padding: 0 4%;
     }
 }
