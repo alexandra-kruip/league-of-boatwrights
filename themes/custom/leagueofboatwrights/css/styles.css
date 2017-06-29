@@ -516,7 +516,7 @@ article.js-comment img {
 
 
 
-/* */
+/*================ Media queries== ================*/
 @media (max-width: 768px) {
     .footer .field--type-link {
         display: block;
@@ -540,5 +540,13 @@ article.js-comment img {
     #block-boat-designs-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img,
     #block-academy-summary .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item img {
       margin: 0 auto;
+    }
+
+    section#block-boatyardblock,
+    section#block-boat-designs-summary,
+    section#block-boatwrights,
+    section#block-academy-summary,
+    section#block-chandlery-summary {
+      padding: 0 4%;
     }
 }
