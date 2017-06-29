@@ -209,8 +209,8 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     margin: 0 auto;
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
-    -webkit-animation-duration: .3s, 2.5s;
-    animation-duration: .3s, 2.5s;
+    -webkit-animation-duration: .3s, 2s;
+    animation-duration: .3s, 2s;
     -webkit-animation-delay: 0s, .3s;
     animation-delay: 0s, .3s;
     -webkit-animation-timing-function: ease-out, ease-in-out;
