@@ -474,7 +474,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     width: 45%;
     float: right;
-    height: 0%;
+    height: 0;
 }
 
 .tablesaw-stack tbody tr {
@@ -492,11 +492,6 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     display: inline-block;
     margin-top: 30px;
 }
-
-/*section#block-views-block-boatwright-listings-block-1 {*/
-    /*display: inline-block;*/
-    /*margin-top: 15px;*/
-/*}*/
 
 .contextual-region.view.view-add-boat-button.view-id-add_boat_button.view-display-id-block_1 {
     clear: both;
@@ -521,7 +516,7 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 }
 
 /*=============== Build log entries ================*/
-.field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
+.field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
     height: 0;
 }
@@ -642,7 +637,7 @@ article.js-comment img {
       text-align: center;
     }
 
-    .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items img.responsive {
+    .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
     }
 }
