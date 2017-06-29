@@ -57,6 +57,10 @@ body:before {
 .navbar-default .navbar-nav > li > a:hover {
   color: rgba(255,255,255,0.8);
 }
+
+div.navbar-header img {
+    width: 350px;
+}
 /*============= Homepage Navbar =================*/
 
 /*.path-frontpage .navbar-default {*/
@@ -468,6 +472,10 @@ section#block-views-block-boatwright-listings-block-1 {
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     margin: 0 auto;
+}
+
+span.views-label.views-label-field-rank, span.views-label.views-label-login, span.views-label.views-label-created, span.views-label.views-label-field-about-me-user {
+    font-weight: bold;
 }
 
 /*================ Coming Soon =====================*/
