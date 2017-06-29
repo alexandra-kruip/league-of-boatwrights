@@ -89,19 +89,19 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
-.region.region-navigation-collapsible {
+.region.region-navigation-collapsible, div#block-searchform {
     width: 100%;
     max-width: 350px;
     display: inline;
 }
 
-div#block-searchform {
-    display: inline;
+.region.region-navigation-collapsible form#search-block-form {
     width: 100%;
     max-width: 350px;
+    display: inline;
 }
 
-div.navbar-header input-group {
+.region.region-navigation-collapsible div#block-searchform > input-group {
     width: 100%;
     max-width: 350px;
 }
