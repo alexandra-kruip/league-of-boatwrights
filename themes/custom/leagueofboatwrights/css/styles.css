@@ -58,23 +58,27 @@ body:before {
   color: rgba(255,255,255,0.8);
 }
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: rgba(255,255,255,0.2);
+    color: white;
+    background-color: rgba(255,255,255,0.2);
 }
 
 .navbar-collapse {
-  background-color: #223a74;
+    background-color: #223a74;
 }
 
 div.navbar-header img {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
 }
 
-a.logo.navbar-btn.pull-left {
-  margin: 14px 0;
+a.logo.navbar-btn {
+    margin: 14px 0;
+    max-width: 80%;
 }
 
 /*============= Homepage Navbar =================*/
@@ -127,7 +131,7 @@ h1.page-header {
 
 /*========== Water background image =============*/
 body.path-frontpage.page-node-type-home-page {
-    background: url(images/homepage-background-1x550.png);
+    background: url(images/homepage-background-1x550.png), url(images/league-of-boatwrights-sailboat-700.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 575px;
@@ -196,6 +200,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     max-height: 350px;
     width: auto;
     margin: 0 auto 10% auto;
+}
+.field.field--name-field-boat-hom-.field--type-image.field--label-hidden.field--item {
+    position: absolute;
+    width: 14vw;
+    left: 552px;
+    top: 60px;
 }
 
 /*.user-logged-in .field--name-field-home-page-image {*/
@@ -443,6 +453,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .view-boat-photos-description-block .field-content {
     display: inline;
 }
+.view-boat-photos-description-block .views-label {
+    font-weight: bold;
+}
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -452,6 +465,11 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 /*============== Boat Design entry =================*/
 .table > tbody > tr > td {
   vertical-align: middle;
+}
+
+/*================ Label spacing ===================*/
+.field--label-above {
+  margin-bottom: 15px;
 }
 
 
@@ -474,7 +492,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-design-photo.field--type-image.field--label-hidden.field--items {
     width: 45%;
     float: right;
-    height: 0%;
+    height: 0;
 }
 
 .tablesaw-stack tbody tr {
@@ -492,11 +510,6 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     display: inline-block;
     margin-top: 30px;
 }
-
-/*section#block-views-block-boatwright-listings-block-1 {*/
-    /*display: inline-block;*/
-    /*margin-top: 15px;*/
-/*}*/
 
 .contextual-region.view.view-add-boat-button.view-id-add_boat_button.view-display-id-block_1 {
     clear: both;
@@ -521,9 +534,13 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
 }
 
 /*=============== Build log entries ================*/
-.field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
+.field.field--name-field-buildlogentryimages.field--type-image.field--items{
     float: right;
-    height: 0;
+    margin-bottom: 20px;
+}
+
+.layout__region section {
+    clear: both;
 }
 
 /*================= User Profiles ==================*/
@@ -630,5 +647,15 @@ article.js-comment img {
     section#block-academy-summary,
     section#block-chandlery-summary {
       padding: 0 4%;
+    }
+
+    .field.field--name-field-buildlogentryimages.field--type-image.field--label-hidden.field--items{
+      float: none;
+      height: auto;
+      text-align: center;
+    }
+
+    .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
+      margin-bottom: 10px;
     }
 }
