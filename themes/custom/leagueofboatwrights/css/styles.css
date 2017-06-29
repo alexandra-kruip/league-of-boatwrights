@@ -203,7 +203,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-    max-height: 350px;
+    max-height: 400px;
     width: auto;
     margin: 0 auto 10% auto;
 }
