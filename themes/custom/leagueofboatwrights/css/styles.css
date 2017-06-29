@@ -95,13 +95,13 @@ a.logo.navbar-btn {
     display: inline;
 }
 
-.region.region-navigation-collapsible form#search-block-form {
+.region.region-navigation-collapsible > form#search-block-form {
     width: 100%;
     max-width: 350px;
     display: inline;
 }
 
-.region.region-navigation-collapsible div#block-searchform > input-group {
+.region.region-navigation-collapsible > div#block-searchform > input-group {
     width: 100%;
     max-width: 350px;
 }
