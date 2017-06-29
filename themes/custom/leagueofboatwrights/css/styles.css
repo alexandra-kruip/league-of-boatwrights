@@ -128,7 +128,7 @@ body.path-frontpage.page-node-type-home-page {
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
     position: relative;
-    top: 50px;
+    bottom: 50px;
     color: white;
     text-align: center;
     font-size: 150%;
