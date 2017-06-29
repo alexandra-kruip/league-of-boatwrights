@@ -2,8 +2,10 @@
 
 /*================== COLOR PALETTE ======================*/
 /* (if you use any custom styles anywhere, add them below as well for easy reference later)
-  e.g.:
-  #80ced6
+
+  navy blue:  #223a74
+  red:        #cd1e2e
+
  */
 
 
@@ -25,6 +27,11 @@ h1, h2, h3 {
     text-align: center;
     color: #223a74;
 }
+
+h2, h3 {
+    text-align: left;
+}
+
 p {
 
 }
@@ -610,6 +617,8 @@ article.js-comment img {
 /*================ Footer icon ====================*/
 .footer .field--name-field-footer-thumb img {
     margin: 40px auto;
+    max-width: 350px;
+    opacity: 0.4;
 }
 
 /*============ Footer mission statement ===========*/
