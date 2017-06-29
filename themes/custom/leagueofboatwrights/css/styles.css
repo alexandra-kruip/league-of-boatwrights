@@ -444,6 +444,13 @@ section#block-views-block-boatwright-listings-block-1 {
     margin-top: 15px;
 }
 
+.contextual-region.view.view-add-boat-button.view-id-add_boat_button.view-display-id-block_1.js-view-dom-id-c91dc9896a73f5801b4a6a31ec757e24e4a54f51ea5bfb5894e60e871963ac49 {
+    clear: both;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: 0 auto;
+}
 
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
