@@ -85,6 +85,18 @@ a.logo.navbar-btn.pull-left {
     /*margin: 0 auto;*/
 /*}*/
 
+.region.region-navigation-collapsible {
+    width: 100%;
+    max-width: 350px;
+    display: inline;
+}
+
+div#block-searchform {
+    display: inline;
+    width: 100%;
+    max-width: 350px;
+}
+
 div.navbar-header input-group {
     width: 100%;
     max-width: 350px;
@@ -594,10 +606,6 @@ article.js-comment img {
 
     .field.field--name-field-title.field--type-string.field--label-hidden.field--item {
       margin: 10px 0 0 0;
-    }
-
-    span.tablesaw-cell-content {
-        margin-left: 15%;
     }
 
     #block-boatyardblock .field.field--name-field-description-icon.field--type-image.field--label-hidden.field--item,
