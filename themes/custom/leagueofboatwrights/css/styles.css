@@ -89,6 +89,11 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
+div#navbar-collapse {
+    width: 50%;
+    float: right;
+}
+
 .region.region-navigation-collapsible, div#block-searchform {
     width: 100%;
     max-width: 350px;
@@ -110,6 +115,9 @@ a.logo.navbar-btn {
     width: 100%;
     max-width: 350px;
     display: inline;
+    margin-bottom: 0;
+    margin-top: 5px;
+    float: right;
 }
 
 
