@@ -95,13 +95,13 @@ a.logo.navbar-btn {
     display: inline;
 }
 
-.region.region-navigation-collapsible form#search-block-form {
+.region.region-navigation-collapsible > form#search-block-form {
     width: 100%;
     max-width: 350px;
     display: inline;
 }
 
-.region.region-navigation-collapsible div#block-searchform > input-group {
+.region.region-navigation-collapsible > div#block-searchform > input-group {
     width: 100%;
     max-width: 350px;
 }
@@ -144,12 +144,12 @@ body.path-frontpage.page-node-type-home-page {
 }
 /*=================== Slogan ====================*/
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item {
-    position: relative;
-    bottom: 50px;
-    color: white;
-    text-align: center;
-    font-size: 150%;
-    font-family: 'Alegreya SC', Georgia, serif;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Alegreya SC', Georgia, serif;
+  margin: 50px auto;
+  line-height: 100%;
 }
 
 /*============== Mission Statement ==============*/
@@ -203,9 +203,9 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 
 /*============== Center Image ===================*/
 .field--name-field-home-page-image img {
-    max-height: 350px;
+    max-height: 380px;
     width: auto;
-    margin: 0 auto 10% auto;
+    margin: 0 auto 6% auto;
 }
 .field.field--name-field-boat-hom-.field--type-image.field--label-hidden.field--item {
     position: absolute;
