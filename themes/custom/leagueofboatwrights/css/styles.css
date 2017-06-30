@@ -783,10 +783,10 @@ article.js-comment img {
 
 @media (max-width: 1000px) and (min-width: 768px) {
     div#navbar-collapse {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .navbar-default .navbar-nav > li > a {
-        padding: 2px;
+        padding: 4px;
     }
 }
