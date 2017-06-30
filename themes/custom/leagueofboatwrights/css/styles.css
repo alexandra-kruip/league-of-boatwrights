@@ -511,6 +511,10 @@ field--name-field-home-page-image img{
 .view-boat-photos-description-block .views-label {
     font-weight: bold;
 }
+
+.view-boat-photos-description-block .views-field-body{
+    padding-top: 20px;
+}
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -759,9 +763,9 @@ article.js-comment img {
         width: 40%;
     }
 
-    .views-field span.tablesaw-cell-content {
-        float: none;
-    }
+    /*.views-field span.tablesaw-cell-content {*/
+        /*float: none;*/
+    /*}*/
     /*===== nav bar width fixed ======*/
     div#navbar-collapse {
          float: none;

@@ -24,8 +24,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/leagueofboatwrights/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            <state relative-caret-position="169">
+              <caret line="765" column="4" lean-forward="false" selection-start-line="765" selection-start-column="6" selection-end-line="767" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -43,6 +43,7 @@
       <find>boatw</find>
       <find>design</find>
       <find>menu</find>
+      <find>float: none</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,12 +224,12 @@
       <workItem from="1498255702935" duration="18000" />
       <workItem from="1498595555152" duration="1475000" />
       <workItem from="1498663407263" duration="5606000" />
-      <workItem from="1498750222582" duration="8896000" />
+      <workItem from="1498750222582" duration="9452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28056000" />
+    <option name="totallyTimeSpent" value="28612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="121" y="23" width="1119" height="873" extended-state="0" />
@@ -475,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/leagueofboatwrights/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        <state relative-caret-position="169">
+          <caret line="765" column="4" lean-forward="false" selection-start-line="765" selection-start-column="6" selection-end-line="767" selection-end-column="7" />
           <folding />
         </state>
       </provider>
