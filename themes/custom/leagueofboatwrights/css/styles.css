@@ -550,8 +550,12 @@ field--name-field-home-page-image img{
     height: 0;
 }
 
+.tablesaw-stack table > thead > tr > th {
+    border-bottom: 2px solid #223a74;
+}
+
 .tablesaw-stack tbody tr {
-  border-bottom: 2px solid #223a74;
+    border-bottom: 2px solid #223a74;
 }
 
 
