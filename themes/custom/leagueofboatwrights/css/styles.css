@@ -79,18 +79,23 @@ header#navbar {
     background-color: rgba(255,255,255,0.2);
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 .navbar-collapse {
     background-color: #223a74;
 }
 
 div.navbar-header img {
-    max-width: 350px;
+    /*max-width: 350px;*/
     width: 100%;
 }
 
 a.logo.navbar-btn {
     margin: 21px 0;
-    max-width: 80%;
+    width: 80%;
+    max-width: 320px;
 }
 
 /*============= Homepage Navbar =================*/
