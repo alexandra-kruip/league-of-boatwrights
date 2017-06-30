@@ -96,6 +96,20 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
+ul.menu.nav.navbar-nav.navbar-right > li > a {
+    font-size: 75%;
+    text-transform: uppercase;
+    padding: 8px 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 12px 15px;
+}
+
+div#navbar-collapse {
+    float: right;
+}
+
 .region.region-navigation-collapsible, div#block-searchform {
     width: 100%;
     max-width: 350px;
@@ -111,12 +125,16 @@ a.logo.navbar-btn {
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group > .input-group {
     width: 100%;
     max-width: 350px;
+    padding-bottom: 10px;
 }
 
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
     width: 100%;
-    max-width: 350px;
+    max-width: 275px;
     display: inline;
+    margin-bottom: 0;
+    margin-top: 5px;
+    float: right;
 }
 
 
@@ -212,14 +230,12 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field--name-field-home-page-image img {
     max-height: 370px;
     width: auto;
+    position: relative;
+    top: 60px;
     margin: 0 auto;
-    /*-webkit-animation-name: bob-animation-float, bob-animation;*/
     animation-name: bob-animation-float, bob-animation;
-    /*-webkit-animation-duration: .3s, 2s;*/
     animation-duration: .3s, 2s;
-    /*-webkit-animation-delay: 0s, .3s;*/
     animation-delay: 0s, .3s;
-    /*-webkit-animation-timing-function: ease-out, ease-in-out;*/
     animation-timing-function: ease-out, ease-in-out;
     animation-iteration-count: 1, infinite;
     animation-fill-mode: forwards;
@@ -560,6 +576,19 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     margin-top: 15px;
 }
 
+.contextual-region .view-header h3,
+.form-group .view .view-header h3 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1.5px solid #223a74;
+}
+
+.contextual-region h2,
+.views-row .views-col .boat-profile h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
@@ -716,5 +745,13 @@ article.js-comment img {
 
     .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
+    }
+
+    .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
+        width: 35%;
+    }
+
+    div#navbar-collapse {
+         float: none;
     }
 }
