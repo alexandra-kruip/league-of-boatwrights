@@ -566,13 +566,15 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     margin-top: 15px;
 }
 
-.contextual-region .view-header h3 {
+.contextual-region .view-header h3,
+.form-group .view .view-header h3 {
     text-align: center;
     font-size: 30px;
     border-bottom: 1.5px solid #223a74;
 }
 
-.contextual-region h2 {
+.contextual-region h2,
+.views-row .views-col .boat-profile h2 {
     text-align: center;
     font-size: 25px;
 }
