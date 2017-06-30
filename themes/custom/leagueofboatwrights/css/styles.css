@@ -94,7 +94,6 @@ div.navbar-header img {
 
 a.logo.navbar-btn {
     margin: 21px 0;
-    width: 80%;
     max-width: 320px;
 }
 
@@ -788,6 +787,10 @@ article.js-comment img {
 
     header#navbar {
       padding: 0 15px;
+    }
+
+    a.logo.navbar-btn {
+      width: 80%;
     }
 }
 
