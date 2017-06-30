@@ -5,7 +5,6 @@
 
   navy blue:  #223a74
   red:        #cd1e2e
-
  */
 
 
@@ -175,7 +174,7 @@ body.path-frontpage.page-node-type-home-page {
   text-align: center;
   font-size: 150%;
   font-family: 'Alegreya SC', Georgia, serif;
-  margin: 50px auto;
+  margin: 35px auto;
   line-height: 100%;
 }
 
@@ -599,7 +598,9 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     text-align: center;
     font-size: 25px;
 }
-
+.view-user-boat-profiles .views-col.col-1 {
+    margin-right: 100px;
+}
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
