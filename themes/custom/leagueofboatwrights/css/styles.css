@@ -53,10 +53,6 @@ body:before {
   border-bottom: 10px solid #cd1e2e;
 }
 
-header#navbar {
-  padding: 0;
-}
-
 .navbar-default {
   background: none;
   border: none;
@@ -778,6 +774,10 @@ article.js-comment img {
     .field--name-field-about.field--type-link .field--item {
       display: block;
       padding: 7px;
+    }
+
+    header#navbar {
+      padding: 0;
     }
 }
 
