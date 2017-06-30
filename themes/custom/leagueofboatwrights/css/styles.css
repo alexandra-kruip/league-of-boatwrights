@@ -781,10 +781,10 @@ article.js-comment img {
       padding: 7px;
     }
     /*===== nav bar hamburger margin ======*/
-    .navbar-default .navbar-toggle {
-        border-color: #ddd;
-        margin-top: 30px;
-        margin-right: 25px;
+    /*.navbar-default .navbar-toggle {*/
+        /*border-color: #ddd;*/
+        /*margin-top: 30px;*/
+        /*margin-right: 25px;*/
 
     header#navbar {
       padding: 0 15px;
