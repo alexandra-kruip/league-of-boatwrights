@@ -758,4 +758,9 @@ article.js-comment img {
     div#navbar-collapse {
          float: none;
     }
+
+    .field--name-field-about.field--type-link .field--item {
+      display: block;
+      padding: 7px;
+    }
 }
