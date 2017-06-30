@@ -602,7 +602,9 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     text-align: center;
     font-size: 25px;
 }
-
+.view-user-boat-profiles .views-col.col-1 {
+    margin-right: 100px;
+}
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
