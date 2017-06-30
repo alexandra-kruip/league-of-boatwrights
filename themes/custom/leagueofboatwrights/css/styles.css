@@ -748,7 +748,7 @@ article.js-comment img {
     }
     /*====== boatwright profile =======*/
     .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
-        width: 43%;
+        width: 40%;
     }
 
     .views-field span.tablesaw-cell-content {
