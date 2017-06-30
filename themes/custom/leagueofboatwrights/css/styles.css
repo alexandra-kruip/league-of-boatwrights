@@ -52,6 +52,11 @@ body:before {
   position: absolute;
   border-bottom: 10px solid #cd1e2e;
 }
+
+header#navbar {
+  padding: 0;
+}
+
 .navbar-default {
   background: none;
   border: none;
@@ -84,7 +89,7 @@ div.navbar-header img {
 }
 
 a.logo.navbar-btn {
-    margin: 14px 0;
+    margin: 21px 0;
     max-width: 80%;
 }
 
@@ -434,6 +439,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
+
 field--name-field-home-page-image img{
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
@@ -686,9 +692,9 @@ article.js-comment img {
 .field--name-field-about.field--type-link {
     display: block;
     border-top: 1px solid #ccc;
-    padding-top: 25px;
+    padding-top: 10px;
     width: 100%;
-    margin: 15px auto;
+    margin: 20px auto;
     max-width: 350px;
 }
 
@@ -699,6 +705,7 @@ article.js-comment img {
 /*=============== Footer copyright ================*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
+    color: rgba(0,0,0,0.7);
 }
 
 
