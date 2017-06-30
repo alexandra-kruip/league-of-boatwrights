@@ -51,6 +51,11 @@ body:before {
   position: absolute;
   border-bottom: 10px solid #cd1e2e;
 }
+
+header#navbar {
+  padding: 0;
+}
+
 .navbar-default {
   background: none;
   border: none;
@@ -66,6 +71,7 @@ body:before {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.is-active,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -83,7 +89,7 @@ div.navbar-header img {
 }
 
 a.logo.navbar-btn {
-    margin: 14px 0;
+    margin: 21px 0;
     max-width: 80%;
 }
 
@@ -104,6 +110,7 @@ ul.menu.nav.navbar-nav.navbar-right > li > a {
 .navbar-default .navbar-nav > li > a {
     padding: 12px 15px;
 }
+
 div#navbar-collapse {
     float: right;
 }
@@ -128,7 +135,7 @@ div#navbar-collapse {
 
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
     width: 100%;
-    max-width: 350px;
+    max-width: 275px;
     display: inline;
     margin-bottom: 0;
     margin-top: 5px;
@@ -251,7 +258,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
 .field.field--name-field-chandlery-icon-image.field--type-image.field--label-visually_hidden{
   display: inline-block;
   width: 100px;
-  margin: 5% 5.4%;
+  margin: 30px 5.4%;
 }
 
 
@@ -432,6 +439,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
+
 field--name-field-home-page-image img{
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
@@ -502,6 +510,10 @@ field--name-field-home-page-image img{
 .view-boat-photos-description-block .views-label {
     font-weight: bold;
 }
+
+.view-boat-photos-description-block .views-field-body{
+    padding-top: 20px;
+}
 /*============ 'Take me there!' text ===============*/
 .field.field--name-field-home-page-summary-link.field--type-link.field--label-hidden.field--item{
     margin-top: 10px;
@@ -542,8 +554,12 @@ field--name-field-home-page-image img{
     height: 0;
 }
 
+.tablesaw-stack > thead > tr > th {
+    border-bottom: 2px solid #223a74;
+}
+
 .tablesaw-stack tbody tr {
-  border-bottom: 2px solid #223a74;
+    border-bottom: 2px solid #223a74;
 }
 
 
@@ -681,11 +697,24 @@ article.js-comment img {
     margin: 30px auto 50px auto;
 }
 
+.field--name-field-about.field--type-link {
+    display: block;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+.field--name-field-about.field--type-link .field--item {
+    display: inline-block;
+}
+
 /*=============== Footer copyright ================*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
+    color: rgba(0,0,0,0.7);
 }
-
 
 
 
@@ -732,7 +761,32 @@ article.js-comment img {
     .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
     }
+    /*====== boatwright profile =======*/
+    .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
+        width: 40%;
+    }
+
+    .path-boatwrights .views-field span.tablesaw-cell-content {
+        float: right;
+    }
+    /*===== nav bar width fixed ======*/
     div#navbar-collapse {
          float: none;
+    }
+
+    .field--name-field-about.field--type-link .field--item {
+      display: block;
+      padding: 7px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    div#navbar-collapse {
+        font-size: 13px;
+        padding: 0;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 6px;
     }
 }
