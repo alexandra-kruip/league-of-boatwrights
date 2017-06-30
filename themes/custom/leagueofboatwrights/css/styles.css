@@ -105,6 +105,7 @@ ul.menu.nav.navbar-nav.navbar-right > li > a {
 .navbar-default .navbar-nav > li > a {
     padding: 12px 15px;
 }
+
 div#navbar-collapse {
     float: right;
 }
@@ -129,7 +130,7 @@ div#navbar-collapse {
 
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
     width: 100%;
-    max-width: 350px;
+    max-width: 275px;
     display: inline;
     margin-bottom: 0;
     margin-top: 5px;
