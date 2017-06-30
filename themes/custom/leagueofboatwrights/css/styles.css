@@ -96,6 +96,11 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
+div#navbar-collapse {
+    width: 40%;
+    float: right;
+}
+
 .region.region-navigation-collapsible, div#block-searchform {
     width: 100%;
     max-width: 350px;
@@ -117,6 +122,9 @@ a.logo.navbar-btn {
     width: 100%;
     max-width: 350px;
     display: inline;
+    margin-bottom: 0;
+    margin-top: 5px;
+    float: right;
 }
 
 
@@ -213,15 +221,11 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     max-height: 370px;
     width: auto;
     position: relative;
-    top: 30px;
+    top: 60px;
     margin: 0 auto;
-    /*-webkit-animation-name: bob-animation-float, bob-animation;*/
     animation-name: bob-animation-float, bob-animation;
-    /*-webkit-animation-duration: .3s, 2s;*/
     animation-duration: .3s, 2s;
-    /*-webkit-animation-delay: 0s, .3s;*/
     animation-delay: 0s, .3s;
-    /*-webkit-animation-timing-function: ease-out, ease-in-out;*/
     animation-timing-function: ease-out, ease-in-out;
     animation-iteration-count: 1, infinite;
     animation-fill-mode: forwards;
