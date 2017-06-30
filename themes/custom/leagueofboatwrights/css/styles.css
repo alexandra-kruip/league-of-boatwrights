@@ -96,8 +96,17 @@ a.logo.navbar-btn {
     /*margin: 0 auto;*/
 /*}*/
 
+ul.menu.nav.navbar-nav.navbar-right > li > a {
+    font-size: 75%;
+    text-transform: uppercase;
+    padding: 8px 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 12px 15px;
+}
+
 div#navbar-collapse {
-    width: 40%;
     float: right;
 }
 
@@ -116,11 +125,12 @@ div#navbar-collapse {
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group > .input-group {
     width: 100%;
     max-width: 350px;
+    padding-bottom: 10px;
 }
 
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
     width: 100%;
-    max-width: 350px;
+    max-width: 275px;
     display: inline;
     margin-bottom: 0;
     margin-top: 5px;
@@ -729,4 +739,7 @@ article.js-comment img {
         width: 35%;
     }
 
+    div#navbar-collapse {
+         float: none;
+    }
 }
