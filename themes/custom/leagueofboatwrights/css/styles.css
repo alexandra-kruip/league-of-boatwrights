@@ -52,6 +52,11 @@ body:before {
   position: absolute;
   border-bottom: 10px solid #cd1e2e;
 }
+
+header#navbar {
+  padding: 0;
+}
+
 .navbar-default {
   background: none;
   border: none;
@@ -85,7 +90,7 @@ div.navbar-header img {
 }
 
 a.logo.navbar-btn {
-    margin: 14px 0;
+    margin: 21px 0;
     max-width: 80%;
 }
 
@@ -435,6 +440,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
+
 field--name-field-home-page-image img{
     -webkit-animation-name: bob-animation-float, bob-animation;
     animation-name: bob-animation-float, bob-animation;
@@ -684,11 +690,24 @@ article.js-comment img {
     margin: 30px auto 50px auto;
 }
 
+.field--name-field-about.field--type-link {
+    display: block;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+.field--name-field-about.field--type-link .field--item {
+    display: inline-block;
+}
+
 /*=============== Footer copyright ================*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
+    color: rgba(0,0,0,0.7);
 }
-
 
 
 
@@ -735,7 +754,21 @@ article.js-comment img {
     .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
     }
+    /*====== boatwright profile =======*/
+    .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
+        width: 40%;
+    }
+
+    .views-field span.tablesaw-cell-content {
+        float: none;
+    }
+    /*===== nav bar width fixed ======*/
     div#navbar-collapse {
          float: none;
+    }
+
+    .field--name-field-about.field--type-link .field--item {
+      display: block;
+      padding: 7px;
     }
 }
