@@ -5,7 +5,6 @@
 
   navy blue:  #223a74
   red:        #cd1e2e
-
  */
 
 
@@ -80,18 +79,22 @@ header#navbar {
     background-color: rgba(255,255,255,0.2);
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 .navbar-collapse {
     background-color: #223a74;
 }
 
 div.navbar-header img {
-    max-width: 350px;
+    /*max-width: 350px;*/
     width: 100%;
 }
 
 a.logo.navbar-btn {
     margin: 21px 0;
-    max-width: 80%;
+    max-width: 320px;
 }
 
 /*============= Homepage Navbar =================*/
@@ -179,7 +182,7 @@ body.path-frontpage.page-node-type-home-page {
   text-align: center;
   font-size: 150%;
   font-family: 'Alegreya SC', Georgia, serif;
-  margin: 50px auto;
+  margin: 35px auto;
   line-height: 100%;
 }
 
@@ -603,7 +606,9 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     text-align: center;
     font-size: 25px;
 }
-
+.view-user-boat-profiles .views-col.col-1 {
+    margin-right: 100px;
+}
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
@@ -781,6 +786,14 @@ article.js-comment img {
     .field--name-field-about.field--type-link .field--item {
       display: block;
       padding: 7px;
+    }
+
+    header#navbar {
+      padding: 0 15px;
+    }
+
+    a.logo.navbar-btn {
+      width: 80%;
     }
 }
 
