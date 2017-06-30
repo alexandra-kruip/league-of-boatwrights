@@ -683,11 +683,23 @@ article.js-comment img {
     margin: 30px auto 50px auto;
 }
 
+.field--name-field-about.field--type-link {
+    display: block;
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+    width: 100%;
+    margin: 15px auto;
+    max-width: 350px;
+}
+
+.field--name-field-about.field--type-link .field--item {
+    display: inline-block;
+}
+
 /*=============== Footer copyright ================*/
 .footer .field--name-field-copyright-footer {
     margin: 15px auto;
 }
-
 
 
 
