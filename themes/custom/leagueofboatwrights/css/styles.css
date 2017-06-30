@@ -99,11 +99,11 @@ a.logo.navbar-btn {
 ul.menu.nav.navbar-nav.navbar-right > li > a {
     font-size: 75%;
     text-transform: uppercase;
-    padding: 6px 0;
+    padding: 8px 8px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    padding: 10px 15px;
+    padding: 12px 15px;
 }
 div#navbar-collapse {
     float: right;
