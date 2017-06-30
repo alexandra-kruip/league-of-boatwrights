@@ -562,6 +562,17 @@ span.views-label.views-label-field-rank, span.views-label.views-label-login, spa
     margin-top: 15px;
 }
 
+.contextual-region .view-header h3 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1.5px solid #223a74;
+}
+
+.contextual-region h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
 /*================ Coming Soon =====================*/
 .field--name-field-coming-soon-image {
     margin: 1% auto 5%;
