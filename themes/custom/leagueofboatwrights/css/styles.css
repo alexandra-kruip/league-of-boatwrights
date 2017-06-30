@@ -780,3 +780,13 @@ article.js-comment img {
       padding: 7px;
     }
 }
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    div#navbar-collapse {
+        font-size: 13px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 4px;
+    }
+}
