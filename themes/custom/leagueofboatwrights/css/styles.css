@@ -645,6 +645,9 @@ article.js-comment {
     border-radius: 5px;
     box-sizing: border-box;
 }
+article.js-comment span {
+    font-weight: bold;
+}
 
 article.js-comment footer > a {
     display: none;
