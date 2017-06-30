@@ -734,11 +734,15 @@ article.js-comment img {
     .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
     }
-
+    /*====== boatwright profile =======*/
     .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
-        width: 35%;
+        width: 37%;
     }
 
+    span.tablesaw-cell-content {
+        float: none;
+    }
+    /*===== nav bar width fixed ======*/
     div#navbar-collapse {
          float: none;
     }
