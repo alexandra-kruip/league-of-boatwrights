@@ -711,4 +711,7 @@ article.js-comment img {
     .field.field--name-field-buildlogentryimages.field--type-image.field--items .field--type-image .field--item:first-child {
       margin-bottom: 10px;
     }
+    div#navbar-collapse {
+         float: none;
+    }
 }
