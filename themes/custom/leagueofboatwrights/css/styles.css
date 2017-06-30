@@ -221,7 +221,7 @@ section#block-boatwrights, section#block-academy-summary, section#block-chandler
     max-height: 370px;
     width: auto;
     position: relative;
-    top: 50px;
+    top: 60px;
     margin: 0 auto;
     animation-name: bob-animation-float, bob-animation;
     animation-duration: .3s, 2s;
