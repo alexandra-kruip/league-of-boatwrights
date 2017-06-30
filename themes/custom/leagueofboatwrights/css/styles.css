@@ -95,7 +95,18 @@ a.logo.navbar-btn {
     /*border: transparent;*/
     /*margin: 0 auto;*/
 /*}*/
+ul.menu.nav.navbar-nav {
+    padding: 6px 0;
+}
 
+ul.menu.nav.navbar-nav.navbar-right {
+    font-size: 75%;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 5px 10px;
+}
 div#navbar-collapse {
     width: 30%;
     float: right;
