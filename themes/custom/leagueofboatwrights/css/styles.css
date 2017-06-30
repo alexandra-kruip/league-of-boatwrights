@@ -767,9 +767,9 @@ article.js-comment img {
         width: 40%;
     }
 
-    /*.views-field span.tablesaw-cell-content {*/
-        /*float: none;*/
-    /*}*/
+    .path-boatwrights .views-field span.tablesaw-cell-content {
+        float: right;
+    }
     /*===== nav bar width fixed ======*/
     div#navbar-collapse {
          float: none;
