@@ -785,6 +785,9 @@ article.js-comment img {
         border-color: #ddd;
         margin-top: 30px;
         margin-right: 25px;
+
+    header#navbar {
+      padding: 0 15px;
     }
 }
 
